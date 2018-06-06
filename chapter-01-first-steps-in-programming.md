@@ -123,39 +123,39 @@ Console.WriteLine(euro);
 
 В следващите редове подробно са описани подробно **стъпките за инсталация на Visual Studio** (версия Community 2017). След като свалим инсталационния файл и го стартираме, се появява следният екран:
 
-![](assets/chapter-1-images/00.visual-studio-1.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-1.png)
 
 Натискаме бутона [**Continue**], след което ще видим прозореца долу:
 
-![](assets/chapter-1-images/00.visual-studio-2.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-2.png)
 
 Зарежда се прозорец с инсталационния панел на Visual Studio.
 
-![](assets/chapter-1-images/00.visual-studio-3.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-3.png)
 
 Слагаме отметка на [**Universal Windows Platform development**], [**.NET desktop development**] и [**ASP.NET and web development**], след което натискаме бутона [**Install**]. Общо взето това е всичко.
 
-![](assets/chapter-1-images/00.visual-studio-4.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-4.png)
 
 Започва инсталацията на Visual Studio и ще се появи екран като този по-долу:
 
-![](assets/chapter-1-images/00.visual-studio-5.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-5.png)
 
 След като Visual Studio се инсталира, ще се появи информативен екран и трябва да натиснем бутона [**Launch**], за да го стартираме.
 
-![](assets/chapter-1-images/00.visual-studio-6.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-6.png)
 
 След **старта на VS** излиза екран като този по-долу. От него можем да изберем дали да влезем с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме опцията [**Not now, maybe later.**]. На по-късен етап, ако имате такъв акаунт, можете да се логнете, а ако нямате и срещате затруднения със създаването му, винаги можете да пишете във форума на SoftUni: [https://softuni.bg/forum](https://softuni.bg/forum).
 
-![](assets/chapter-1-images/00.visual-studio-7.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-7.png)
 
 Следващата стъпка е да изберем **цветовата тема**, с която да се визуализира Visual Studio. Тук изборът е изцяло според предпочитанията на потребителя, като няма значение коя опция ще бъде избрана. 
 
-![](assets/chapter-1-images/00.visual-studio-8.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-8.png)
 
 Натискаме бутона [**Start Visual Studio**] и се зарежда в началния изглед на Visual Studio Community:
 
-![](assets/chapter-1-images/00.visual-studio-9.png)
+![](/assets/old-images/chapter-1-images/00.visual-studio-9.png)
 
 Това е всичко. Готови сме за работа с Visual Studio.
 
@@ -184,11 +184,11 @@ Console.WriteLine(euro);
 
 Да се върнем на нашата конзолна програма. Вече имаме Visual Studio и можем да го стартираме. След това създаваме нов конзолен проект: [**File**] &rarr; [**New**] &rarr; [**Project**] &rarr; [**Visual C#**] &rarr; [**Windows**] &rarr; [**Console Application**].
 
-![](assets/chapter-1-images/01.Hello-csharp-01.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-01.png)
 
 Задаваме **смислено име** на нашата програма, например `HelloCSharp`:
 
-![](assets/chapter-1-images/01.Hello-csharp-02.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-02.png)
 
 Visual Studio ще създаде за нас **празна C# програма**, която трябва да допишем (VS Solution с VS Project в него със C# сорс файл в него с един C# клас в него с **`Main()`** метод в него).
 
@@ -202,7 +202,7 @@ Visual Studio ще създаде за нас **празна C# програма
 
 Натискаме [**Enter**] след **отварящата скоба** **`{`** и **започваме да пишем**. Кодът на програмата се пише **отместен навътре**, като това е част от оформянето на текста, за по-голямо удобство при повторен преглед и/или дебъгване.
 
-![](assets/chapter-1-images/01.Hello-csharp-03.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-03.png)
 
 Пишем следната команда:
 
@@ -212,7 +212,7 @@ Console.WriteLine("Hello C#");
 
 Ето как трябва да изглежда нашата програма във Visual Studio:
 
-![](assets/chapter-1-images/01.Hello-csharp-04.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-04.png)
 
 Командата **`Console.WriteLine("Hello C#")`** на езика C# означава да изпълним отпечатване (**`WriteLine(…)`**) върху конзолата (**`Console`**) и да отпечатаме текстово съобщение **`Hello C#`**, което трябва да оградим с кавички, за да поясним, че това е текст. В края на всяка команда на езика C# се слага символът **`;`** и той указва, че командата свършва на това място (т.е. не продължава на следващия ред).
 
@@ -222,7 +222,7 @@ Console.WriteLine("Hello C#");
 
 За стартиране на програмата натискаме [**Ctrl + F5**]. Ако няма грешки, програмата ще се изпълни. Резултатът ще се изпише на конзолата (в черния прозорец):
 
-![](assets/chapter-1-images/01.Hello-csharp-05.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-05.png)
 
 Забележете, че стартираме с **[Ctrl+F5]**, а не само с **[F5]** или с бутона за стартиране във Visual Studio. Ако ползваме **[F5]**, програмата ще се изпълни за кратко и веднага след това черният прозорец ще изчезне и няма да видим резултата.
 
@@ -240,11 +240,11 @@ Hello C#
 
 Горната програма може да тестваме тук: [https://judge.softuni.bg/Contests/Practice/Index/503#0](https://judge.softuni.bg/Contests/Practice/Index/503#0). Поставяме целия сорс код на програмата в черното поле и избираме **C# code**, както е показано тук:
 
-![](/assets/chapter-1-images/01.Hello-csharp-06.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-06.png)
 
 Изпращаме решението за оценяване с бутона [**Изпрати**]. Системата връща резултат след няколко секунди в таблицата с изпратени решения. При необходимост може да натиснем бутона за обновяване на резултатите **[refresh]** в горната дясна част на таблицата с изпратени за проверка решения:
 
-![](assets/chapter-1-images/01.Hello-csharp-07.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-07.png)
 
 В таблицата с изпратените решения judge системата ще покаже един от следните **възможни резултати**:
 * **Брой точки** (между 0 и 100), когато предаденият код се компилира успешно (няма синтактични грешки) и може да бъде тестван.
@@ -301,7 +301,7 @@ static void Main(string[] args)
 
 Тази програма ще даде **грешка при опит за компилация** и стартиране и даже още преди това кодът ще бъде подчертан, за да се насочи вниманието на програмиста към грешката, която е допуснал (пропуснатата затваряща кавичка):
 
-![](assets/chapter-1-images/01.Hello-csharp-08.png)
+![](/assets/old-images/chapter-1-images/01.Hello-csharp-08.png)
 
 
 ## Какво научихме от тази глава?
@@ -327,17 +327,17 @@ static void Main(string[] args)
 
 Правим **нов C# конзолен проект** с име "**Expression**".	Намираме метода **``static void Main(string[] args)``** и **влизаме в неговото тяло** между **`{`** и **`}`**. След това трябва да **напишем кода**, който да изчисли горния числен израз и да отпечата на конзолата стойността му. Подаваме горния числен израз в скобите на командата **``Console.WriteLine(…)``**:
 
-![](assets/chapter-1-images/02.Expression-01.png)
+![](/assets/old-images/chapter-1-images/02.Expression-01.png)
 
 Стартираме програмата с [**Ctrl+F5**] и проверяваме дали резултатът е същия като на картинката:
 
-![](assets/chapter-1-images/02.Expression-02.png)
+![](/assets/old-images/chapter-1-images/02.Expression-02.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/503#1](https://judge.softuni.bg/Contests/Practice/Index/503#1).
 
-![](assets/chapter-1-images/02.Expression-03.png)
+![](/assets/old-images/chapter-1-images/02.Expression-03.png)
 
 
 ### Задача: числата от 1 до 20
@@ -348,11 +348,11 @@ static void Main(string[] args)
 
 Създаваме **конзолно C# приложение** с име “**Nums1To20**“:
 
-![](/assets/chapter-1-images/03.Numbers-1-to-20-01.png)
+![](/assets/old-images/chapter-1-images/03.Numbers-1-to-20-01.png)
 
 В **`static void Main()`** метода пишем 20 команди **``Console.WriteLine(…)``**, всяка на отделен ред, за да отпечатаме числата от 1 до 20 едно след друго. По-досетливите от вас, сигурно се питат дали няма по-умен начин. Спокойно, има, но за него по-късно.
 
-![](assets/chapter-1-images/03.Numbers-1-to-20-02.png)
+![](/assets/old-images/chapter-1-images/03.Numbers-1-to-20-02.png)
 
 Сега **стартираме програмата** и поверяваме дали резултатът е какъвто се очаква да бъде:
 ```
@@ -418,7 +418,7 @@ Console.WriteLine("**");
 
 Правим нова **конзолна C# програма**. За да **прочетем двете числа**, използваме следните две команди:
 
-![](assets/chapter-1-images/05.Rectangle-area-01.png)
+![](/assets/old-images/chapter-1-images/05.Rectangle-area-01.png)
 
 Остава да се допише програмата по-горе, за да пресмята лицето на правоъгълника и да го отпечата. Използвайте познатата ни вече команда **`Console.WriteLine()`** и й подайте в скобите произведението на числата **a** и **b**. В програмирането умножението се извършва с оператора **`*`**.
 
@@ -450,7 +450,7 @@ Console.WriteLine("**");
 
 Правим нова **конзолна C# програма**. За да прочетем числото N (2 ≤ N ≤100), използваме следния код:
 
-![](/assets/chapter-1-images/06.Square-of-stars-01.png)
+![](/assets/old-images/chapter-1-images/06.Square-of-stars-01.png)
 
 Да се допише програмата по-горе, за да отпечатва квадрат, съставен от звездички. Може да се наложи да се използват **`for`** цикли. Потърсете информация в Интернет.
 
@@ -479,21 +479,21 @@ Console.WriteLine("**");
 
 Да се напише **графично (GUI) приложение**, което **изчислява сумата на две числа**:
 
-![](assets/chapter-1-images/07.Numbers-sum-01.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-01.png)
 
 При въвеждане на две числа в първите две текстови полета и натискане на бутона [**Calculate**] се изчислява тяхната сума и резултатът се показва в третото текстово поле. За нашето приложение ще използваме **технологията Windows Forms**, която позволява създаване на **графични приложения за Windows**, в среда за разработка **Visual Studio** и с **език** за програмиране **C#**.
 
 Във Visual Studio създаваме **нов C# проект от тип „Windows Forms Application“**:
 
-![](assets/chapter-1-images/07.Numbers-sum-02.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-02.png)
 
 При създаването на Windows Forms приложение ще се появи **редактор за потребителски интерфейс**, в който могат да се слагат **различни визуални елементи** (например кутийки с текст и бутони):
 
-![](assets/chapter-1-images/07.Numbers-sum-03.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-03.png)
 
 Изтегляме от лентата вляво (Toolbox) **три текстови полета** (**`TextBox`**), **два надписа** (**`Label`**) и **един бутон** (**`Button`**), след което ги подреждаме в прозореца на приложението. След това **променяме имената на всяка от контролите**. Това става от **прозорчето “Properties”** вдясно, чрез промяна на полето (**`Name`**):
 
-![](assets/chapter-1-images/07.Numbers-sum-04.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-04.png)
 
 *	Имена на текстовите полета: **`textBox1`**, **`textBox2`**, **`textBoxSum`**
 * Име на бутона: **`buttonCalculate`**
@@ -506,41 +506,41 @@ Console.WriteLine("**");
 *	label2 -> =
 *	Form1 -> Sumator
 
-![](assets/chapter-1-images/07.Numbers-sum-05.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-05.png)
 
 **Преоразмеряваме и подреждаме контролите**, за да изглеждат по-добре:
 
-![](assets/chapter-1-images/07.Numbers-sum-06.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-06.png)
 
 Опитваме да пуснем приложението с [**Ctrl+F5**]. То би трябвало да стартира, но да **не функционира напълно**, защото не сме написали какво се случва при натискане на бутона.
 
-![](assets/chapter-1-images/07.Numbers-sum-07.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-07.png)
 
 Сега е време да напишем кода, който **сумира числата** от първите две полета и **показва резултата** в третото поле. За целта кликваме **два пъти върху бутона [Calculate]**. Ще се появи място, в което да напишем какво да се случва при натискане на бутона:
 
-![](assets/chapter-1-images/07.Numbers-sum-08.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-08.png)
 
 Написваме следния C# код между отварящата и затварящата скоба **`{ }`**, където е курсорът:
 
-![](assets/chapter-1-images/07.Numbers-sum-09.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-09.png)
 
 Този код **взима първото число** от полето **`textBox1`** и го запазва **в променливата `num1`**, запазва **второто число** от полето **`textBox2`** в **променливата `num2`**, след това **сумира `num1` и `num2` в променливата `sum`** и накрая **извежда текстовата стойност на променливата `sum`** в полето **`textBoxSum`**.
 
 Стартираме отново програмата с [**Ctrl+F5**] и проверяваме дали работи коректно. Правим опит да сметнете **4 + 5**, а след това **-12.5 + 1.3**:
 
-![](assets/chapter-1-images/07.Numbers-sum-10.png) ![](/assets/chapter-1-images/07.Numbers-sum-11.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-10.png) ![](/assets/old-images/chapter-1-images/07.Numbers-sum-11.png)
 
 Пробваме и с **невалидни числа**, напр. “**aaa**” и “**bbb**”. Изглежда има проблем: 
 
-![](assets/chapter-1-images/07.Numbers-sum-12.png) ![](/assets/chapter-1-images/07.Numbers-sum-13.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-12.png) ![](/assets/old-images/chapter-1-images/07.Numbers-sum-13.png)
 
 Проблемът идва от **прехвърлянето на текстово поле в число**. Ако стойността в полето **не е число, програмата дава грешка**. Можем да поправим кода, за да коригираме този проблем:
 
-![](assets/chapter-1-images/07.Numbers-sum-14.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-14.png)
 
 Горният код **прихваща грешките при работа с числа** (хваща изключенията) и в случай на грешка **извежда стойност `error`** в полето с резултата. Стартираме отново програмата с [**Ctrl+F5**] и я пробваме дали работи. Този път **при грешно число резултатът е `error`** и програмата не се чупи:
 
-![](assets/chapter-1-images/07.Numbers-sum-15.png) ![](/assets/chapter-1-images/07.Numbers-sum-16.png)
+![](/assets/old-images/chapter-1-images/07.Numbers-sum-15.png) ![](/assets/old-images/chapter-1-images/07.Numbers-sum-16.png)
 
 Сложно ли е? Нормално е да е сложно, разбира се. Тъкмо започваме да навлизаме в програмирането. Примерът по-горе изисква още много знания и умения, които ще развиваме в тази книга и даже и след нея. Просто си позволете да се позабавлявате с desktop програмирането. Ако не тръгва нещо, гледайте **видеото в началото на тази глава** или питайте във **форума на СофтУни**: https://softuni.bg/forum. Или продължете смело напред към следващия пример или към следващата глава от книгата. Ще дойде време и ще ви е лесно, но наистина трябва да вложите **усърдие и постоянство**. Програмирането се учи бавно и с много, много практика.
 
@@ -552,46 +552,46 @@ Console.WriteLine("**");
 Обърнете внимание, че ще създадем **уеб-базирано приложение**. Това е приложение, което е достъпно през уеб браузър, точно както любимата ви уеб поща или новинарски сайт. Уеб приложението ще има сървърна част (back-end), която е написана на езика C# с технологията ASP.NET MVC и клиентска част (front-end), която е написана на езика HTML (това е език за визуализация на информация в уеб браузър). 
 Уеб приложението се очаква да изглежда приблизително по следния начин:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-01.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-01.png)
 
 За разлика от конзолните приложения, които четат и пишат данните си във вид на текст на конзолата, уеб приложенията имат **уеб базиран потребителски интерфейс**. Уеб приложенията се **зареждат от някакъв Интернет адрес** (URL) чрез стандартен уеб браузър. Потребителите пишат входните данни в страница, визуализирана от уеб браузъра, данните се обработват на уеб сървър и резултатите се показват отново в страницата в уеб браузъра. За нашето уеб приложение ще използваме **технологията ASP.NET MVC**, която позволява създаване на **уеб приложения с езика за програмиране C#** в средата за разработка **Visual Studio**.
 
 Във Visual Studio създаваме **нов C# проект от тип „ASP.NET Web Application“** с име **WebApp**:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-02.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-02.png)
 
 Избираме **тип** на приложението - **“MVC”**:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-03.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-03.png)
 
 Намираме файла **`Views\Home\Index.cshtml`**. В него се намира **изгледът (view) за главната страница** на нашето уеб приложението:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-04.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-04.png)
 
 Изтриваме стария код от **файла `Index.cshtml`** и пишем следния код: 
 
-![](assets/chapter-1-images/08.Numbers-sum-web-05.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-05.png)
 
 
 Този код **създава една уеб форма с три текстови полета и един бутон в нея**. В полетата се зареждат стойности, които се изчисляват предварително в обекта **`ViewBag`**. Указано е, че при натискане на бутона [**Calculate**] ще се извика действието **`/home/calculate` (действие `calculate` от `home` контролера)**.
 
 Ето как трябва да изглежда **файлът `Index.cshtml`** след промяната:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-06.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-06.png)
 
 Остава да се напише **действието** (action), което **сумира числата при натискане на бутона** [**Calculate**]. Отваряме файла **`Controllers\HomeController.cs`** и добавяме следния код в тялото на **`HomeController`** класа:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-07.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-07.png)
 
 Този код осъществява действието “**calculate**”. То приема два параметъра **`num1`** и **`num2`** и ги записва в обекта **`ViewBag`**, след което **изчислява и записва** тяхната сума. Записаните във **`ViewBag`** стойности след това **се използват от изгледа**, за да се покажат в **трите текстови полета** във формата за сумиране на числа в уеб страницата от приложението.
 
 Ето как трябва да изглежда **файлът `HomeController.cs`** след промяната:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-08.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-08.png)
 
 Приложението е готово. Можем да го стартираме с [**Ctrl+F5**] и да тестваме дали работи:
 
-![](assets/chapter-1-images/08.Numbers-sum-web-09.png)
+![](/assets/old-images/chapter-1-images/08.Numbers-sum-web-09.png)
 
 Страшно ли изглежда? **Не се плашете!** Имаме да учим още много, за да достигнем ниво на знания и умения, за да пишем свободно уеб-базирани приложения, като в примера по-горе и много по-големи и по-сложни. Ако не успеете да се справите, няма страшно, продължете спокойно напред. След време ще си спомняте с усмивка колко непонятен и вълнуващ е бил първият ви сблъсък с уеб програмирането. Ако имате проблеми с примера по-горе, **гледайте видеото** в началото на тази глава. Там приложението е направено на живо стъпка по стъпка с много обяснения. Или питайте във **форума на СофтУни**: https://softuni.bg/forum.
 

@@ -149,35 +149,35 @@ for (int i = 0; i < 5; i++)
 
 Във Visual Studio съществуват т.нар. **шаблони с код** (code snippets), при изписването на които се изписва по шаблон някакъв блок с код. Примерно, при изписването на кратък код “**`cw`**” и натискане на **[Tab]** + **[Tab]** се генерира кодът **`Console.WriteLine();`** в тялото на нашата програма, на мястото на краткия код. Това се нарича “разгъване на шаблон за кратък код”. Подобно работи и шаблона “**`for`**” + **[Tab]** + **[Tab]**. На фигурата по-долу е показано действието на шаблона “**`cw`**”:
 
-![](/assets/chapter-11-images/01.Code-snippet-01.jpg)
+![](/assets/old-images/chapter-11-images/01.Code-snippet-01.jpg)
 
 ### Да си направим собствен шаблон за код
 
 В тази секция ще покажем как сами да си **направим собствен шаблон**. Ще разгледаме **как се прави code snippet** за **`Console.ReadLine()`**. Като за начало ще си създадем нов празен проект и ще отидем на [**Tools -> Code Snippets Manager**], както е показано на снимката:
 
-![](/assets/chapter-11-images/01.Code-snippet-02.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-02.jpg) 
 
 В отворилия се прозорец трябва да изберем **Language -> CSharp**, а от секцията **Locations -> Visual C#**. Там се намират всички съществуващи шаблони за езика **C#**:
 
-![](/assets/chapter-11-images/01.Code-snippet-03.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-03.jpg) 
 
 Избираме някой snippet, например **`cw`**, вземаме пътя до неговия файл и го отваряме с редактора на Visual Studio:
 
-![](/assets/chapter-11-images/01.Code-snippet-04.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-04.jpg) 
 
 Виждаме доста непознати неща, но няма страшно, по-нататък ще се запознаем и с тях. Сега се фокусираме върху частта **`<Title><Title>`**, **`<Shortcut><Shortcut>`** и кода между **`CDATA[]`**. Първо ще сменим заглавието, което седи в секцията **`<Title><Title>`** и вместо **`cw`**, ще напишем **`cr`**, като това ще бъде **заглавието на нашия шаблон**. След това, в секцията **`<Shortcut><Shortcut>`**, ще сменим това, което трябва да напишем за **извикването на нашия шаблон** (shortcut) от **`cw`** на **`cr`**. Накрая трябва да сменим кода в **`CDATA[]`**, от **`WriteLine`** на **`ReadLine`**: **`CDATA[$SystemConsole$.ReadLine($end$);]`**. Пожелание може да промените и секциите Description и Author. Промененият файл трябва да изглежда така:
 
-![](/assets/chapter-11-images/01.Code-snippet-05.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-05.jpg) 
 
 След като сме написали нашия snippet, трябва да си **запазим файла във формат** **`snippetName.snippet`** (в нашия случай **`cr.snippet`**) и да го добавим към Visual Studio. Отиваме в  [**Tools**] -> [**Code Snippet Manager**] -> [**Import**] и избираме **`cr.snippet`** файла, който създадохме:
 
-![](/assets/chapter-11-images/01.Code-snippet-06.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-06.jpg) 
 
-![](/assets/chapter-11-images/01.Code-snippet-08.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-08.jpg) 
 
 Вече когато напишем **`cr`** във Visual Studio, **нашият нов snippet** се появява:
 
-![](/assets/chapter-11-images/01.Code-snippet-07.jpg) 
+![](/assets/old-images/chapter-11-images/01.Code-snippet-07.jpg) 
 
 ## Техники за дебъгване на кода
 
@@ -204,11 +204,11 @@ static void Main(string[] args)
 
 Ще сложим **стопер** (breakpoint) на функцията **`Console.WriteLine(…)`**. За целта трябва да преместим курсора на реда, който печата на конзолата, и да натиснем [**F9**]. Появява се **стопер**, където програмата ще **спре** изпълнението си:
 
-![](/assets/chapter-11-images/02.Debugger-01.jpg) 
+![](/assets/old-images/chapter-11-images/02.Debugger-01.jpg) 
 
 За да стартираме **програмата в режим на дебъгване**, избираме [**Debug**] -> [**Start Debugging**] или натискаме [**F5**]:
 
-![](/assets/chapter-11-images/02.Debugger-02.jpg) 
+![](/assets/old-images/chapter-11-images/02.Debugger-02.jpg) 
 
 След стартиране на програмата виждаме, че тя **спира изпълнението си** на ред 11, където сложихме стопера (breakpoint). Кодът на текущия ред се **оцветява с жълт цвят** и можем да го **изпълняваме постъпково**. За да преминем на **следващ ред** използваме клавиш [**F10**]. **Забелязваме, че кодът на текущия ред все още не е изпълнен**. **Изпълнява се, когато преминем на следващия ред**:
 
