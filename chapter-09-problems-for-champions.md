@@ -21,7 +21,7 @@
 
 Същевременно, нека **числата в спиралата** да започнат с **5** и спиралата да се увеличава с **2** на всяка стъпка.
 
-<img src="assets/old-images/chapter-9-images/01.Crossing-sequences-01.png" style="float: right; height: 250px;" />
+<img src="assets/old-images/chapter-9-1-images/01.Crossing-sequences-01.png" style="float: right; height: 250px;" />
 
 Тогава **втората редица** ще съдържа числата 5, 7, 9, 13, 17, 23, 29, 37 и т.н. Виждаме, че **37** е първото число, което се среща в редицата на Трибоначи и в спиралата и това е търсеното решение на задачата.
 
