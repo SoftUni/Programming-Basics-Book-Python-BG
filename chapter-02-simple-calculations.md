@@ -10,7 +10,7 @@
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=0f7c9RIZGaE">https://www.youtube.com/watch?v=0f7c9RIZGaE</a>.
+  Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=qcBWD8ImVRI&feature=youtu.be">https://www.youtube.com/watch?v=qcBWD8ImVRI&feature=youtu.be</a>.
 </div>
 <script src="/assets/js/video.js"></script>
 
