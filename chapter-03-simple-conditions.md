@@ -137,11 +137,11 @@ else:
 
 Задачата можем да решим с помощта на една **`if-else`** конструкция и оператора **`%`**, който връща **остатък при деление** на две числа.
 
-![](/assets/old-images/chapter-3-images/03.Even-or-odd-02.png)
+![](/assets/chapter-3-1-images/EvenOdd.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#2](https://judge.softuni.bg/Contests/Practice/Index/1049#2).
 
 
 ### Пример: по-голямото число
@@ -150,11 +150,11 @@ else:
 
 Първата ни задача е да **прочетем** двете числа. След което, чрез проста **`if-else`** конструкция, в съчетание с **оператора за по-голямо** (**`>`**), да направим проверка. Част от кода е замъглена умишлено, за да изпробваме наученото до момента.
 
-![](/assets/old-images/chapter-3-images/04.Greater-number-02.png)
+![](/assets/chapter-3-1-images/GreaterNumber.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#3](https://judge.softuni.bg/Contests/Practice/Index/1049#3).
 
 
 ## Живот на променлива
