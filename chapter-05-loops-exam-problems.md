@@ -3,10 +3,10 @@
 В предходната глава научихме как да изпълним даден блок от команди **повече от веднъж**. Затова въведохме **`for` цикъл** и разгледахме някои от основните му приложения. Целта на настоящата глава е да затвърдим знанията си, решавайки няколко по-сложни задачи с цикли, давани на приемни изпити. За някои от тях ще покажем примерни подробни решения, а за други ще оставим само напътствия.
 Преди да се захванем за работа е добре да си припомним конструкцията на **цикъла `for`**:
 
-![](/assets/old-images/chapter-5-2-images/00.For-construction-01.png)
+![](/assets/chapter-5-2-images/00.For-construction-01.png)
 
 **For циклите** се състоят от:
- * Инициализационен блок, в който се декларира променливата-брояч (**`var i`**) и се задава нейна начална стойност.
+ * Инициализационен блок, в който се декларира променливата-брояч (**`i`**).
  * Условие за повторение (**`i <= 10`**), изпълняващо се веднъж, преди всяка итерация на цикъла.
  * Обновяване на брояча (**`i++`**) – този код се изпълнява след всяка итерация.
  * Тяло на цикъла - съдържа произволен блок със сорс код.
@@ -158,7 +158,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#0](https://judge.softuni.bg/Contests/Practice/Index/511#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#0](https://judge.softuni.bg/Contests/Practice/Index/511#0).
 
 
 ## Задача: умната Лили
@@ -242,7 +242,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#1](https://judge.softuni.bg/Contests/Practice/Index/511#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#1](https://judge.softuni.bg/Contests/Practice/Index/511#1).
 
 
 ## Задача: завръщане в миналото
@@ -320,7 +320,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#2](https://judge.softuni.bg/Contests/Practice/Index/511#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#2](https://judge.softuni.bg/Contests/Practice/Index/511#2).
 
 
 ## Задача: болница
@@ -413,7 +413,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#3](https://judge.softuni.bg/Contests/Practice/Index/511#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#3](https://judge.softuni.bg/Contests/Practice/Index/511#3).
 
 
 ## Задача: деление без остатък
@@ -500,7 +500,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#4](https://judge.softuni.bg/Contests/Practice/Index/511#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#4](https://judge.softuni.bg/Contests/Practice/Index/511#4).
 
 
 ## Задача: логистика
@@ -595,4 +595,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#5](https://judge.softuni.bg/Contests/Practice/Index/511#5).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#5](https://judge.softuni.bg/Contests/Practice/Index/511#5).
