@@ -516,7 +516,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#4](https://judge.softuni.bg/Contests/Practice/Index/1049#4).
 
 
 ### Задача: познай паролата
@@ -537,7 +537,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#8](https://judge.softuni.bg/Contests/Practice/Index/506#8).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#8](https://judge.softuni.bg/Contests/Practice/Index/1049#8).
 
 
 ### Задача: число от 100 до 200
@@ -554,7 +554,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#9](https://judge.softuni.bg/Contests/Practice/Index/506#9).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#9](https://judge.softuni.bg/Contests/Practice/Index/1049#9).
 
 
 ### Задача: еднакви думи
@@ -573,11 +573,11 @@ else:
 
 #### Насоки и подсказки
 
-Преди сравняване на думите, ги обърнете в долен регистър, за да не оказва влияние размера на буквите (главни/малки): **`word = word.ToLower()`**.
+Преди сравняване на думите, ги обърнете в долен регистър, за да не оказва влияние размера на буквите (главни/малки): **`word = word.lower()`**.
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#10](https://judge.softuni.bg/Contests/Practice/Index/506#10).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#10](https://judge.softuni.bg/Contests/Practice/Index/1049#10).
 
 
 ### Задача: информация за скоростта
@@ -596,7 +596,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#11](https://judge.softuni.bg/Contests/Practice/Index/506#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#11](https://judge.softuni.bg/Contests/Practice/Index/1049#11).
 
 
 ### Задача: лица на фигури
@@ -622,7 +622,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#12](https://judge.softuni.bg/Contests/Practice/Index/506#12).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#12](https://judge.softuni.bg/Contests/Practice/Index/1049#12).
 
 
 ### Задача: време + 15 минути
@@ -645,7 +645,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#13](https://judge.softuni.bg/Contests/Practice/Index/506#13).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#13](https://judge.softuni.bg/Contests/Practice/Index/1049#13).
 
 
 ### Задача: еднакви 3 числа
@@ -662,7 +662,7 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#14](https://judge.softuni.bg/Contests/Practice/Index/506#14).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#14](https://judge.softuni.bg/Contests/Practice/Index/1049#14).
 
 
 ### Задача: \* изписване на число от 0 до 100 с думи
@@ -683,4 +683,4 @@ else:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#15](https://judge.softuni.bg/Contests/Practice/Index/506#15).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#15](https://judge.softuni.bg/Contests/Practice/Index/1049#15).
