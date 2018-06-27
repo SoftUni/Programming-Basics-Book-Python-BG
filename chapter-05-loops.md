@@ -15,7 +15,7 @@
 
 В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта се използват т.нар. **цикли**. Нека разгледаме един пример за **`for` цикъл**, който преминава последователно през числата от 1 до 10 и ги отпечатва:
 
-![](/assets/old-images/chapter-5-images/00.For-loop-01.png)
+![](/assets/chapter-5-1-images/00.For-loop-01.png)
 
 Цикълът започва с **оператора `for`** и преминава през всички стойности за дадена променлива в даден интервал, например всички числа от 1 до 10 включително, и за всяка стойност изпълнява поредица от команди.
 
@@ -33,15 +33,15 @@
 
 Можем да решим задачата с **`for` цикъл** , с който преминаваме с променливата **`i`** през числата от 1 до 100 и ги печатаме в тялото на цикъла:
 
-![](/assets/old-images/chapter-5-images/01.Numbers-1-to-100-01.png)
+![](/assets/chapter-5-1-images/01.Numbers-1-to-100-01.png)
 
 **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме**:
 
-![](/assets/old-images/chapter-5-images/01.Numbers-1-to-100-02.png)
+![](/assets/chapter-5-1-images/01.Numbers-1-to-100-02.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#0](https://judge.softuni.bg/Contests/Practice/Index/510#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#0](https://judge.softuni.bg/Contests/Practice/Index/154#0).
 
 Трябва да получите **100 точки** (напълно коректно решение).
 
@@ -53,11 +53,11 @@
 
 Задачата можем да решим като комбинираме **`for` цикъл** за преминаваме през числата от 1 до 1000 и **проверка** за всяко число дали завършва на 7. Има и други решения, разбира се, но нека решим задачата чрез **завъртане на цикъл + проверка**:
 
-![](/assets/old-images/chapter-5-images/02.Numbers-ending-in-7-01.png)
+![](/assets/chapter-5-1-images/02.Numbers-ending-in-7-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#1](https://judge.softuni.bg/Contests/Practice/Index/510#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#1](https://judge.softuni.bg/Contests/Practice/Index/154#1).
 
 
 ### Пример: всички латински букви
@@ -68,11 +68,11 @@
 
 Полезно е да се знае, че **`for` циклите** не работят само с числа. Може да решим задачата като завъртим **`for` цикъл**, който преминава последователно през всички букви от латинската азбука:
 
-![](/assets/old-images/chapter-5-images/03.Latin-letters-01.png)
+![](/assets/chapter-5-1-images/03.Latin-letters-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#2](https://judge.softuni.bg/Contests/Practice/Index/510#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#2](https://judge.softuni.bg/Contests/Practice/Index/154#2).
 
 
 ### Пример: сумиране на числа
@@ -103,11 +103,11 @@
  
 Ето и сорс кода на решението:
 
-![](/assets/old-images/chapter-5-images/04.Sum-numbers-01.png)
+![](/assets/chapter-5-1-images/04.Sum-numbers-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#3](https://judge.softuni.bg/Contests/Practice/Index/510#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#3](https://judge.softuni.bg/Contests/Practice/Index/154#3).
 
 
 ### Пример: най-голямо число
@@ -128,11 +128,11 @@
 
 Първо въвеждаме едно число **`n`** (броят числа, които предстои да бъдат въведени). Задаваме на текущия максимум **`max`** първоначална неутрална стойност, например **-10000000000000** (или **`int.MinValue`**). С помощта на **`for` цикъл**, чрез който итерираме **n-1 пъти**, прочитаме по едно цяло число **`num`**. Ако прочетеното число **`num`** е по-голямо от текущия максимум **`max`**, присвояваме стойността на **`num`** в променливата **`max`**. Накрая, в **`max`** трябва да се е запазило най-голямото число. Отпечатваме го на конзолата.
 
-![](/assets/old-images/chapter-5-images/05.Max-number-01.png)
+![](/assets/chapter-5-1-images/05.Max-number-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#4](https://judge.softuni.bg/Contests/Practice/Index/510#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#4](https://judge.softuni.bg/Contests/Practice/Index/154#4).
 
 
 ### Пример: най-малко число
@@ -151,11 +151,11 @@
 
 Задачата е абсолютно аналогична с предходната, само че започване с друга неутрална начална стойност.
 
-![](/assets/old-images/chapter-5-images/06.Min-number-01.png)
+![](/assets/chapter-5-1-images/06.Min-number-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#5](https://judge.softuni.bg/Contests/Practice/Index/510#5).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#5](https://judge.softuni.bg/Contests/Practice/Index/154#5).
 
 
 ### Пример: лява и дясна сума
@@ -172,11 +172,11 @@
 
 Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намираме и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **`Math.Abs(leftSum - rightSum)`**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, в противен случай - отпечатваме **"No" + разликата**.
 
-![](/assets/old-images/chapter-5-images/07.Left-and-right-sum-01.png)
+![](/assets/chapter-5-1-images/07.Left-and-right-sum-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#6](https://judge.softuni.bg/Contests/Practice/Index/510#6).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#6](https://judge.softuni.bg/Contests/Practice/Index/154#6).
 
 
 ### Пример: четна / нечетна сума
@@ -195,11 +195,11 @@
 
 Въвеждаме числата едно по едно и изчисляваме двете **суми** (на числата на **четни** позиции и на числата на **нечетни** позиции). Както в предходната задача, изчисляваме абсолютната стойност на разликата и отпечатваме резултата (**"Yes" + сумата** при разлика 0 или **"No" + разликата** в противен случай).
 
-![](/assets/old-images/chapter-5-images/08.Odd-even-sum-01.png)
+![](/assets/chapter-5-1-images/08.Odd-even-sum-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#7](https://judge.softuni.bg/Contests/Practice/Index/510#7).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#7](https://judge.softuni.bg/Contests/Practice/Index/154#7).
 
 
 ### Пример: сумиране на гласните букви
@@ -221,22 +221,22 @@
 
 Прочитаме входния текст **`s`**, зануляваме сумата и завъртаме цикъл от **0** до **`s.Length-1`** (дължината на текста -1). Проверяваме всяка буква **`s[i]`** дали е гласна и съответно добавяме към сумата стойността ѝ.
 
-![](/assets/old-images/chapter-5-images/09.Vowels-sum-01.png)
+![](/assets/chapter-5-1-images/09.Vowels-sum-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#8](https://judge.softuni.bg/Contests/Practice/Index/510#8).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#8](https://judge.softuni.bg/Contests/Practice/Index/154#8).
 
 
 ## Какво научихме от тази глава?
 
 Можем да повтаряме блок код с **`for` цикъл**:
 
-![](/assets/old-images/chapter-5-images/00.For-loop-01.png)
+![](/assets/chapter-5-1-images/00.For-loop-01.png)
 
 Можем да четем поредица от **`n`** числа от конзолата:
 
-![](/assets/old-images/chapter-5-images/00.For-loop-03.png)
+![](/assets/chapter-5-1-images/0.For-loop-03.png)
 
 ## Упражнения: повторения (цикли)
 
@@ -268,7 +268,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#9](https://judge.softuni.bg/Contests/Practice/Index/510#9).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#9](https://judge.softuni.bg/Contests/Practice/Index/154#9).
 
 
 ### Задача: четни / нечетни позиции
@@ -292,7 +292,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#10](https://judge.softuni.bg/Contests/Practice/Index/510#10).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#10](https://judge.softuni.bg/Contests/Practice/Index/154#10).
 
 
 ### Задача: еднакви двойки
@@ -320,7 +320,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#11](https://judge.softuni.bg/Contests/Practice/Index/510#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/154#11](https://judge.softuni.bg/Contests/Practice/Index/154#11).
 
 
 ## Упражнения: графични и уеб приложения
