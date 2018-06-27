@@ -338,21 +338,19 @@ else:
 
 Нека затвърдим наученото в тази глава с няколко задачи.
 
-### Празно Visual Studio решение (Blank Solution)
+### Празно PyCharm решение (**project**)
 
-Създаваме празно решение (**Blank Solution**) във Visual Studio, за да организираме по-добре решенията на задачите от упражненията – всяка задача ще бъде в отделен проект и всички проекти ще бъдат в общ solution.
+Създаваме празно решение в PyCharm, за да организираме по-добре решенията на задачите от упражненията – всяка задача ще бъде в отделен проект и всички проекти ще бъдат в общ project.
 
-Стартираме Visual Studio. Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
+Стартираме PyCharm. Създаваме нов **Project:** [**File**] -> [**New Project**].
 
-![](/assets/old-images/chapter-3-images/00.Visual-studio-01.png)
+![](/assets/chapter-3-1-images/NewProject.png)
 
-Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Conditions”:  
+Избираме от полето в ляво **Pure Python** и задаваме директория на проекта, като на мястото на **untitled** салгаме името на нашия проект:  
 
-![](/assets/old-images/chapter-3-images/00.Visual-studio-02.png)
+![](/assets/chapter-3-1-images/NewProject2.png)
 
-Сега имаме създаден празен Visual Studio Solution (без проекти в него):  
-
-![](/assets/old-images/chapter-3-images/00.Visual-studio-03.png)
+Сега имаме създаден празен проект (без файлове в него)
 
 ### Задача: проверка за отлична оценка
 
@@ -369,33 +367,27 @@ else:
 
 #### Насоки и подсказки
 
-Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликваме с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Избираме [**Add**] -> [**New Project**]:  
+Създаваме нов **python** файл като цъкаме с десен клавиш на мишката върху създадената от нас папка. Избираме [**New**] -> [**Python File**].
 
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-01.png)
+ ![](/assets/chapter-3-1-images/NewProject3.png)
 
-Ще се отвори диалогов прозорец за избор на тип проект за създаване. Избираме **C# конзолно приложение** и задаваме име, например “`Excellent-Result`”:
+Ще се отвори диалогов прозорец за избор на име на файла. Тъй като задачата ни е за проверка на отлична оценка, нека го кръстим **excellent_result**:
 
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-02.png)
+ ![](/assets/chapter-3-1-images/NewProject4.png)
  
-Вече имаме solution с едно конзолно приложение в него. Остава да напишем кода за решаване на задачата.
+Вече имаме project с еднин файл в него. Остава да напишем кода за решаване на задачата.
 
-За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
+За целта пишем следния код:
 
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-03.png)
-
-**Стартираме** програмата с [**Ctrl+F5**], за да я **тестваме** с различни входни стойности:
-
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-04.png)
-
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-05.png)
+ ![](/assets/chapter-3-1-images/NewProject5.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#0](https://judge.softuni.bg/Contests/Practice/Index/1049#0).
 
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-06.png) 
+ ![](/assets/chapter-3-1-images/Judge.png) 
 
- ![](/assets/old-images/chapter-3-images/09.Excellent-result-07.png)
+ ![](/assets/chapter-3-1-images/Judge2.png)
 
 
 ### Задача: отлична оценка или не
