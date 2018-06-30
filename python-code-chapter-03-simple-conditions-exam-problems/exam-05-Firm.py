@@ -1,19 +1,17 @@
 import math
 
-#05.Firm-01
 projectHours = int(input())
 availableDays = int(input())
 overtimeWorkers = int(input())
 
-#05.Firm-02
 workDays = availableDays * 0.90
-overtimeHours = availableDays * 2 * overtimeWorkers
-workHours = math.floor(workDays*8 + overtimeHours)
+overtimeHours = workDays * 2 * overtimeWorkers
+workHours = workDays * 8 * overtimeWorkers
+totalHours = math.floor(workHours + overtimeHours)
 
-#05.Firm-03
-if projectHours <= workHours:
+if projectHours <= totalHours:
     print('Yes!{0} hours left.' . format(
-        workHours - projectHours))
+        totalHours - projectHours))
 else:
     print('Not enough time!{0} hours needed.' . format(
-        projectHours - workHours))
+        projectHours - totalHours))
