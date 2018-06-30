@@ -95,7 +95,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/507#0](https://judge.softuni.bg/Contests/Practice/Index/507#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1050#0](https://judge.softuni.bg/Contests/Practice/Index/1050#0).
 
 
 ## Задача: тръби в басейн
@@ -154,8 +154,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: **`!!!! САМО ЗА C#:!!!!`** [https://judge.softuni.bg/Contests/Practice/Index/507#1](https://judge.softuni.bg/Contests/Practice/Index/507#1).
-						ПРЕДЛАГАМ: [https://judge.softuni.bg/Contests/Practice/Index/179#1]
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1050#1](https://judge.softuni.bg/Contests/Practice/Index/1050#1).
 
 ## Задача: поспаливата котка Том
 
@@ -227,8 +226,8 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: !!!!! САМО ЗА C#!!!!!! [https://judge.softuni.bg/Contests/Practice/Index/507#2](https://judge.softuni.bg/Contests/Practice/Index/507#2).
-ТЕСТВАХ ТУК: [https://judge.softuni.bg/Contests/Practice/Index/181#1]
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1050#2](https://judge.softuni.bg/Contests/Practice/Index/1050#2).
+
 
 
 ## Задача: реколта
@@ -295,8 +294,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: !!! САМО C#!!!! [https://judge.softuni.bg/Contests/Practice/Index/507#3](https://judge.softuni.bg/Contests/Practice/Index/507#3).
-Python: [https://judge.softuni.bg/Contests/Practice/Index/233#1]
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1050#3](https://judge.softuni.bg/Contests/Practice/Index/1050#3).
 
 
 ## Задача: фирма
@@ -356,5 +354,4 @@ Python: [https://judge.softuni.bg/Contests/Practice/Index/233#1]
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: !!! C#!!!!! ----> [https://judge.softuni.bg/Contests/Practice/Index/507#4](https://judge.softuni.bg/Contests/Practice/Index/507#4).
-Python: [https://judge.softuni.bg/Contests/Practice/Index/274#1]
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1050#4](https://judge.softuni.bg/Contests/Practice/Index/1050#4).
