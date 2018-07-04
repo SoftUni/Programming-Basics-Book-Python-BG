@@ -1,16 +1,16 @@
 distance = int(input())
-dayOrNight = input()
+day_or_night = input()
 
 price = 0.00
-taxiRate = 0.00
+taxi_rate = 0.00
 
-if dayOrNight == 'day':
-    taxiRate = 0.79
+if day_or_night == 'day':
+    taxi_rate = 0.79
 else:
-    taxiRate = 0.90
+    taxi_rate = 0.90
 
 if distance < 20:
-    price = 0.70 + distance * taxiRate
+    price = 0.70 + distance * taxi_rate
 elif distance < 100:
     price = distance * 0.09
 else:

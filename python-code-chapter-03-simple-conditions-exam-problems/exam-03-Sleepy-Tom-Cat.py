@@ -2,13 +2,13 @@ import math
 
 holidays = int(input())
 
-workingDays = 365 - holidays
-totalPlayMinutes = workingDays*63 + holidays*127
-difference = math.fabs(totalPlayMinutes-30000)
+working_days = 365 - holidays
+total_play_minutes = working_days * 63 + holidays * 127
+difference = math.fabs(total_play_minutes - 30000)
 hours = int(difference // 60)
 minutes = int(difference % 60)
 
-if totalPlayMinutes > 30000:
+if total_play_minutes > 30000:
     print('Tom will run away')
     print(f'{hours} hours and {minutes} minutes more for play')
 else:
