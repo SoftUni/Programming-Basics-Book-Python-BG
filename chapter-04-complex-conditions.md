@@ -215,7 +215,7 @@ result = a or b or c or d
 
 #### Решение
 
-![](/assets/old-images/chapter-4-images/05.Invalid-number-01.png)
+![](/assets/chapter-4-1-images/05.Invalid-number-01.png)
 
 #### Тестване в Judge системата
 
