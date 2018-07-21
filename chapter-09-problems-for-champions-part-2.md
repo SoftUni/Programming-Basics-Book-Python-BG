@@ -151,11 +151,11 @@
 
 Изразът
 
-![First example](/assets/old-images/chapter-9-2-images/02.X-expression-01.png)
+![First example](/assets/chapter-9-2-images/02.X-expression-01.png)
 
 бива решен по следния начин:
 
-![First example explained](/assets/old-images/chapter-9-2-images/02.X-expression-02.png)
+![First example explained](/assets/chapter-9-2-images/02.X-expression-02.png)
 
 Бони е много красива, но не чак толкова съобразителна, затова тя има нужда от нашата помощ, за да усвои силата на Изразите.
 
