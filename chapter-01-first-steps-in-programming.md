@@ -11,6 +11,14 @@
 </div>
 <script src="/assets/js/video.js"></script>
 
+***
+TODO List:
+1. Replace examples with PyCharm (Installation, Set-Up, Basic tasks) - In progress...
+2. Change the content with Python examples and screenshots
+3. Fix the intro description and basic info
+4. Change all examples in the topic "What we've learned in this chapter"
+***
+
 ## Какво означава "да програмираме"?
 
 **Да програмираме** означава да даваме команди на компютъра какво да прави, например "*да изсвири някакъв звук*", "*да отпечата нещо на екрана*" или "*да умножи две числа*". Когато командите са няколко една след друга, те се наричат **компютърна програма**. Текстът на компютърните програми се нарича **програмен код** (или **сорс код** или за по-кратко **код**).
@@ -119,6 +127,10 @@ Console.WriteLine(euro);
  - За програмиране на Python използваме средата **Visual Studio** за операционната система Windows и **MonoDevelop** или **Raider** за Linux или Mac OS X.
  - Ако програмираме на Java, подходящи са средите **IntelliJ IDEA**, **Eclipse** или **NetBeans**.
  - Ако ще пишем на Python, можем да използваме средата **PyCharm**.
+
+***
+TASK 1
+***
 
 ### Инсталация на Visual Studio Community
 
@@ -238,6 +250,8 @@ Hello Python
 ```
 
 Съобщението "**Press any key to continue . . .**" се изписва допълнително на най-долния ред на конзолата от Visual Studio след като програмата завърши, за да ни подкани да видим резултата от изпълнението на програмата и да натиснем клавиш, за да затворим конзолата.
+
+***
 
 ### Тестване на програмата в Judge системата
 
