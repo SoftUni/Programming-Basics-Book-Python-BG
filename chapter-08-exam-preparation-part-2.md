@@ -74,9 +74,6 @@
 </tr>
 </table>
 
-**Повече** за различните **типове** данни в езика Python може да прочетете тук:
-
-[http://www.introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/\#\_Toc298863935](http://www.introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/#_Toc298863935)
 
 По този начин успяхме да се справим успешно с **първата подзадача**. **Следващата** стъпка е да **преобразуваме входните данни** в подходящи **типове**, за да можем да извършим необходимите пресмятания. Избираме да използваме тип **`Int32`** или **`int`**, тъй като в условието на задачата e упоменато, че входните данни ще бъдат в **определен интервал**, за който този тип данни е напълно достатъчен. **Преобразуването** извършваме по следния начин:
 
@@ -107,11 +104,11 @@
 
 ![](/assets/old-images/chapter-8-2-images/01.Distance-06.png)
 
-В случай че сте работили правилно и изпълните програмата с входните данни от условието на задачата, ще се уверите, че тя работи коректно.
+В случай, че сте работили правилно и изпълните програмата с входните данни от условието на задачата, ще се уверите, че тя работи коректно.
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#0](https://judge.softuni.bg/Contests/Practice/Index/517#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1060#0](https://judge.softuni.bg/Contests/Practice/Index/1060#0).
 
 
 ## Задача: смяна на плочки
@@ -172,7 +169,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1](https://judge.softuni.bg/Contests/Practice/Index/517#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1060#1](https://judge.softuni.bg/Contests/Practice/Index/1060#1).
 
 
 ## Задача: магазин за цветя
@@ -241,7 +238,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2](https://judge.softuni.bg/Contests/Practice/Index/517#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1060#2](https://judge.softuni.bg/Contests/Practice/Index/1060#2).
 
 
 ## Задача: оценки
@@ -303,7 +300,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3](https://judge.softuni.bg/Contests/Practice/Index/517#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1060#1](https://judge.softuni.bg/Contests/Practice/Index/1060#1).
 
 
 ## Задача: коледна шапка
@@ -359,7 +356,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4](https://judge.softuni.bg/Contests/Practice/Index/517#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1060#4](https://judge.softuni.bg/Contests/Practice/Index/1060#4).
 
 
 ## Задача: комбинации от букви
@@ -413,4 +410,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1060#5](https://judge.softuni.bg/Contests/Practice/Index/1060#5).
