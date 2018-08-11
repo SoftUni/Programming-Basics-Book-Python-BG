@@ -405,18 +405,18 @@ else:
 
 Първо създаваме **нов Python файл** в нашия проект. Следва да **напишем кода** на програмата. Може да си помогнем със следния примерен код:
 
- ![](/assets/chapter-3-images/02.Excellent-or-not-01.png)
+ ![](/assets/chapter-3-1-images/02.Excellent-or-not-01.png)
 
 Следва да **стартираме програмата**, както обикновено с [**Shift + F10**] и да я тестваме дали работи коректно:
 
- ![](/assets/chapter-3-images/02.Excellent-or-not-02.png)
- ![](/assets/chapter-3-images/02.Excellent-or-not-03.png)
+ ![](/assets/chapter-3-1-images/02.Excellent-or-not-02.png)
+ ![](/assets/chapter-3-1-images/02.Excellent-or-not-03.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#1](https://judge.softuni.bg/Contests/Practice/Index/1049#1).
 
- ![](/assets/chapter-3-images/02.Excellent-or-not-04.png)
+![](/assets/chapter-3-1-images/02.Excellent-or-not-04.png)
 
 
 ### Задача: четно или нечетно
@@ -438,11 +438,11 @@ else:
 
 Остава да **стартираме** програмата с [**Ctrl+F5**] и да я тестваме:  
 
-![](/assets/chapter-3-images/03.Even-or-odd-01.png)
+![](/assets/chapter-3-1-images/03.Even-or-odd-01.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#2](https://judge.softuni.bg/Contests/Practice/Index/1049#2).
 
 
 ### Задача: намиране на по-голямото число
@@ -460,22 +460,22 @@ else:
 
 #### Насоки и подсказки
 
-Както обикновено, първо трябва да добавим **нов C# конзолен проект** в съществуващия solution. За кода на програмата ни е необходима единична **`if-else`** конструкция. Може да си помогнете частично с кода от картинката, който е умишлено замъглен, за да помислите как да го допишете сами:  
+Както обикновено, първо трябва да добавим **нов Python файл**. За кода на програмата ни е необходима единична **`if-else`** конструкция. Може да си помогнете частично с кода от картинката, който е умишлено замъглен, за да помисли читателя как да го допише сам:  
 
-![](/assets/old-images/chapter-3-images/04.Greater-number-02.png)
+![](/assets/chapter-3-1-images/04.Greater-number-01.png)
 
-След като сме готови с имплементацията на решението, **стартираме** програмата с [**Ctrl+F5**] и я тестваме:
+След като сме готови с имплементацията на решението, **стартираме** програмата с [**Shift + F10**] и я тестваме:
 
-![](/assets/old-images/chapter-3-images/04.Greater-number-01.png)
+![](/assets/chapter-3-1-images/04.Greater-number-02.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#3](https://judge.softuni.bg/Contests/Practice/Index/1049#3).
 
 
 ### Задача: изписване на число до 9 с думи
 
-Да се напише програма, която въвежда **цяло число в диапазона** [**0 … 9**] и го **изписва с думи** на английски език. Ако числото е извън диапазона, изписва “**number too big**”.
+Да се напише програма, която въвежда **цяло число в диапазона** [**0 … 9**] и го **изписва с думи** на английски език. Ако числото е извън диапазона, изписва "**number too big**".
 
 #### Примерен вход и изход
 
@@ -488,7 +488,7 @@ else:
 
 #### Насоки и подсказки
 
-Може да използваме поредица **`if-else`** конструкции, с които да разгледаме възможните **11 случая**.
+Може да използваме поредица **`if-elif`** конструкции, с които да разгледаме възможните **11 случая**.
 
 #### Тестване в Judge системата
 
@@ -497,7 +497,7 @@ else:
 
 ### Задача: познай паролата
 
-Да се напише програма, която **въвежда парола** (един ред с произволен текст) и проверява дали въведеното **съвпада** с фразата “**s3cr3t!P@ssw0rd**”. При съответствие да се изведе “**Welcome**”, а при несъответствие да се изведе “**Wrong password!**”. 
+Да се напише програма, която **въвежда парола** (произволен текст) и проверява дали въведеното **съвпада** с фразата "**s3cr3t!P@ssw0rd**". При съответствие да се изведе "**Welcome**", а при несъответствие да се изведе "**Wrong password!**". 
 
 #### Примерен вход и изход
 
