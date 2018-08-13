@@ -20,7 +20,7 @@
 
 ### Прости функции
 
-**Простите** функции отговарят за изпълнението на дадено **действие**, което **спомага** за решаване на определен проблем. Такива действия могат да бъдат например разпечатване на даден низ на конзолата, извършване на някаква проверка, изпълнение на цикъл и други.
+**Простите** функции отговарят за изпълнението на дадено **действие**, което **спомага** за решаване на определен проблем. Такива действия могат да бъдат например разпечатване на даден низ в конзолата, извършване на някаква проверка, изпълнение на цикъл и други.
 
 Нека разгледаме следния **пример за проста функция**:
 
@@ -66,11 +66,11 @@
 
 ### Извикване на функции
 
-Извикването на функция представлява **стартирането на изпълнението на кода**, който се намира в **тялото на функцията**. Това става като изпишем **името** му, последвано от кръглите скоби **`()`**. Ако функцията ни изисква входни данни (параметри), то те се подават в скобите **`()`**, като последователността на фактическите параметри трябва да съвпада с последователността на подадените при дефинирането на функцията. Ето един пример:
+Извикването на функция представлява **стартирането на изпълнението на кода**, който се намира в **тялото на функцията**. Това става като изпишем **името** на функцията, последвано от кръглите скоби **`()`**. Ако функцията ни изисква входни данни (параметри), то те се подават в скобите **`()`**, като последователността на фактическите параметри трябва да съвпада с последователността на подадените при дефинирането на функцията. Ето един пример:
 
 ![](/assets/chapter-10-images/chapter-10-3-invoking-functions.png)
 
-Дадена функция може да бъде извикана от **няколко места** в нашата програма. Важно е да знаем, че ако една функция е декларирана някъде в програмата, то тя може да бъде извиквана само след реда, на който е декларирана.
+Дадена функция може да бъде извикана от **няколко места** в нашата програма и повече от един път. Важно е да знаем, че ако една функция е дефинирана някъде в програмата, то тя може да бъде извиквана само след реда, на който е декларирана.
 
 Тъй като извикването на функция е инструкция сама по себе си, то можем от тялото на една функция да извикаме друга.
 
@@ -96,11 +96,11 @@
 
 #### Насоки и подсказки
 
-Първата ни стъпка е да създадем функция за **принтиране на заглавната част** от касовата бележка (header). Нека му дадем смислено име, което описва кратко и ясно задачата му, например **`print_receipt_header`**. В тялото му ще напишем кода от примера по-долу:
+Първата ни стъпка е да създадем функция за **принтиране на заглавната част** от касовата бележка (header). Нека ѝ дадем смислено име, което описва кратко и ясно задачата ѝ, например **`print_receipt_header`**. В тялото ѝ ще напишем кода от примера по-долу:
 
 ![](/assets/chapter-10-images/chapter-10-5-receipt-example-1.png)
 
-Съвсем аналогично ще създадем още две функции **за разпечатване на средната част** на бележката (тяло) **`print_receipt_body`** и **за разпечатване на долната част** на бележката (footer) **`print_receipt_footer`**.
+Съвсем аналогично ще създадем още две функции **за разпечатване на средната част** на бележката (body) **`print_receipt_body`** и **за разпечатване на долната част** на бележката (footer) **`print_receipt_footer`**.
 
 След това ще създадем и **още една функция**, която ще извиква трите функции, които написахме до момента една след друга. Накрая ще **извикаме** функцията **`print_receipt`** за нашата програма:
 
@@ -108,7 +108,7 @@
 
 #### Тестване в Judge системата
 
-Програмата с общо пет функции, които се извикват една от друга, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.bg/Contests/Practice/Index/XXX#0](https://judge.softuni.bg/Contests/Practice/Index/XXX#0).
+Програмата с общо пет функции, които се извикват една от друга, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.bg/Contests/Practice/Index/1063#0](https://judge.softuni.bg/Contests/Practice/Index/1063#0).
 
 ## Функции с параметри
 
@@ -158,7 +158,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#1](https://judge.softuni.bg/Contests/Practice/Index/594#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#1](https://judge.softuni.bg/Contests/Practice/Index/1063#1).
 
 
 ### Незадължителни параметри
@@ -205,7 +205,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#2](https://judge.softuni.bg/Contests/Practice/Index/594#2).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#2](https://judge.softuni.bg/Contests/Practice/Index/1063#2).
 
 
 ### Пример: рисуване на запълнен квадрат
@@ -234,7 +234,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#3](https://judge.softuni.bg/Contests/Practice/Index/594#3).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#3](https://judge.softuni.bg/Contests/Practice/Index/1063#3).
 
 
 ## Връщане на резултат от функции
@@ -314,7 +314,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#4](https://judge.softuni.bg/Contests/Practice/Index/594#4).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#4](https://judge.softuni.bg/Contests/Practice/Index/1063#4).
 
 
 ### Пример: степен на число
@@ -337,7 +337,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#5](https://judge.softuni.bg/Contests/Practice/Index/594#5).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#5](https://judge.softuni.bg/Contests/Practice/Index/1063#5).
 
 
 ### Функции, връщащи няколко стойности
@@ -408,7 +408,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#6](https://judge.softuni.bg/Contests/Practice/Index/594#6).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#6](https://judge.softuni.bg/Contests/Practice/Index/1063#6).
 
 
 ## Вложени функции (локални функции)
@@ -531,7 +531,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#7](https://judge.softuni.bg/Contests/Practice/Index/594#7).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#7](https://judge.softuni.bg/Contests/Practice/Index/1063#7).
 
 
 ### Задача: по-малко число
@@ -553,7 +553,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#8](https://judge.softuni.bg/Contests/Practice/Index/594#8).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#8](https://judge.softuni.bg/Contests/Practice/Index/1063#8).
 
 
 ### Задача: повтаряне на низ
@@ -574,7 +574,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#9](https://judge.softuni.bg/Contests/Practice/Index/594#9).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#9](https://judge.softuni.bg/Contests/Practice/Index/1063#9).
 
 
 ### Задача: n-та цифра
@@ -593,7 +593,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#10](https://judge.softuni.bg/Contests/Practice/Index/594#10).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#10](https://judge.softuni.bg/Contests/Practice/Index/1063#10).
 
 
 ### Задача: число към бройна система
@@ -620,7 +620,7 @@
 
 #### Тестване в Judge системата 
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#11](https://judge.softuni.bg/Contests/Practice/Index/594#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#11](https://judge.softuni.bg/Contests/Practice/Index/1063#11).
 
 
 ### Задача: известия
@@ -650,7 +650,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#12](https://judge.softuni.bg/Contests/Practice/Index/594#12).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#12](https://judge.softuni.bg/Contests/Practice/Index/1063#12).
 
 
 ### Задача: числа към думи
@@ -684,7 +684,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#13](https://judge.softuni.bg/Contests/Practice/Index/594#13).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#13](https://judge.softuni.bg/Contests/Practice/Index/1063#13).
 
 
 ### Задача: криптиране на низ
@@ -730,4 +730,4 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#14](https://judge.softuni.bg/Contests/Practice/Index/594#14).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1063#14](https://judge.softuni.bg/Contests/Practice/Index/1063#14).
