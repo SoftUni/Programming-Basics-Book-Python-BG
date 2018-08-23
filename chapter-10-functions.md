@@ -567,7 +567,7 @@
 
 Допишете липсващата логика във функцията по-долу:
 
-![](/assets/chapter-10-images/chapter-10-20-exercises-3.png)
+![](/assets/chapter-10-images/18.Integer-to-base-01.png)
 
 #### Тестване в Judge системата 
 
