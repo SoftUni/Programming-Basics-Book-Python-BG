@@ -18,7 +18,7 @@
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**. Променливите са именувани области от паметта, които пазят данни от определен тип, например число или текст. Всяка една **променлива** в Python има **име** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията ѝ, ѝ присвояваме и стойност:
 
-![](/assets/chapter-2-1-images/00.Declaring-variables-01.png)
+![](/assets/chapter-2-1-images/00.Declaring-variables-01.PNG)
 
 След тяхната обработка, данните се записват отново в променливи (т.е. някъде в паметта, заделена от нашата програма).
 
@@ -67,7 +67,7 @@ print('Square area = ', area)
 
 Ето как би работила програмата при квадрат с размер на страната 3:
 
-![](/assets/chapter-2-1-images/00.Square-area-01.jpg)
+![](/assets/chapter-2-1-images/00.Square-area-01.PNG)
 
 Опитайте да въведете грешно число, например "**hello**". Ще получите съобщение за грешка по време на изпълнение (exception). Това е нормално. По-късно ще разберем как можем да прихващаме такива грешки и да караме потребителят да въвежда число наново.
 
@@ -105,7 +105,7 @@ print('Centimeters = ', centimeters)
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](/assets/chapter-2-1-images/00.Inches-to-centimeters-01.jpg)
+![](/assets/chapter-2-1-images/00.Inches-to-centimeters-01.PNG)
 
 #### Тестване в Judge системата
 
@@ -134,7 +134,7 @@ print(name, end='!')
 
 Ето и резултата, ако извикаме функцията с името "Иван":
 
-![](/assets/chapter-2-1-images/00.Greeting-by-name-01.jpg)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-01.PNG)
 
 #### Тестване в Judge системата
 
@@ -145,7 +145,6 @@ print(name, end='!')
 
 При печат на текст, числа и други данни, **можем да ги съединим**, като използваме шаблони **`{0}`**, **`{1}`**, **`{2}`** и т.н. В програмирането тези шаблони се наричат **placeholders**. 
 
-//TODO
 В Python използваме вградения метод **`.format()`**, чрез който изреждаме променливите, които искаме да са на мястото на плейсхолдърите.
 
 ```python
@@ -159,7 +158,7 @@ print('You are {0} {1}, a {2}-years old person from {3}.'.
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](/assets/chapter-2-1-images/00.Placeholders-01.png)
+![](/assets/chapter-2-1-images/00.Placeholders-01.PNG)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**.
 
@@ -303,7 +302,32 @@ Trapezoid area = 17.5
 
 
 ## Закръгляне на числа
-//TODO
+
+Понякога, когато работим с дробни числа, се налага да приведем числата към еднотипен формат. Това привеждане се нарича **закръгляне**. Езикът **Python** ни предоставя няколко метода за закръгляне на числа:
+
+* **`math.ceil(…)`** - **закръгляне нагоре**, до следващо (по-голямо) цяло число:
+```python
+up = math.ceil(23.45)  # up = 24
+```
+
+* **`math.floor(…)`** - **закръгляне надолу**, до предишно (по-малко) цяло число:
+```python
+down = math.floor(45.67)  # down = 45
+```
+
+* **`round(…)`** - закръглянето се извършва по **основното правило за закръгляване** - ако десетичната част е по-малка от 5, закръглението е надолу и обратно, ако е по-голяма от 5 - нагоре:
+```python
+round(5.439)  # 5
+round(5.539)  # 6
+```
+
+* **`round(…, брой символи след десетичната запетая)`** - закръгляне до **най-близко** число:
+```python
+round(123.456, 2)  # 123.46
+round(123, 2)  # 123.0
+round(123.456, 0)  # 123.0
+round(123.512, 0)  # 124.0
+```
 
 ### Пример: периметър и лице на кръг 
 
@@ -324,7 +348,7 @@ print('Perimeter = ', perimeter)
 ```
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets/chapter-2-1-images/00.Circle-area-01.png)
+![](/assets/chapter-2-1-images/00.Circle-area-01.PNG)
 
 #### Тестване в Judge системата
 
@@ -339,7 +363,6 @@ print('Perimeter = ', perimeter)
 
 В тази задача трябва да съобразим, че ако от по-големия `x` извадим по-малкия `x`, ще получим дължината на правоъгълника. Аналогично, ако от по-големия `y` извадим по-малкия `y`, ще получим височината на правоъгълника. Остава да умножим двете страни. Ето примерна имплементация на описаната логика:
 
-// TODO - Judge's tests
 ```python
 x1 = float(input())
 y1 = float(input())
@@ -360,7 +383,7 @@ print('Perimeter = ', perimeter)
 
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![](/assets/chapter-2-1-images/00.Rectangle-area-02.jpg)
+![](/assets/chapter-2-1-images/00.Rectangle-area-02.PNG)
 
 #### Тестване в Judge системата
 
@@ -382,12 +405,11 @@ print('Perimeter = ', perimeter)
 
 ### Създаване на нов проект в PyCharm
 
-Създаваме нов проект в PyCharm (от [**File**] -> [**Create New Project**]), за да организираме по-добре задачите за упражнение. Целта на този **проект** e да съдържа **по един Python файл за всяка задача** от упражненията:
+Създаваме нов проект в PyCharm (от [**Create New Project**] или [**File**] -> [**New Project**]), за да организираме по-добре задачите за упражнение. Целта на този **проект** e да съдържа **по един Python файл за всяка задача** от упражненията:
 
-*	Стартираме PyCharm.
-* Създаваме нов проект: [**File**] -> [**Create New Project**].
+* Стартираме PyCharm.
+* Създаваме нов проект: [**Create New Project**].
 
-// TODO
 ![](/assets/chapter-2-1-images/00.New-project-PyCharm-01.png)
 
 ### Задача:	пресмятане на лице на квадрат
@@ -402,23 +424,23 @@ print('Perimeter = ', perimeter)
 
 Ще се отвори **диалогов прозорец** за избор на **името** на файла. Наименуваме го “square_area”:
 
-![](/assets/chapter-2-1-images/01.Square-area-02.png)
+![](/assets/chapter-2-1-images/01.Square-area-02.PNG)
 
 Вече имаме проект с един файл в него. Остава да напишем **кода за решаване на задачата**. За целта отиваме във файла и пишем следния код:
 
-![](/assets/chapter-2-1-images/01.Square-area-03.png)
+![](/assets/chapter-2-1-images/01.Square-area-03.PNG)
 
 Кодът въвежда цяло число чрез **`a = int(input('a = '))`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+Shift+F10**] или с десен бутон - **Run**, и я **тестваме** с различни входни стойности:
 
-![](/assets/chapter-2-1-images/01.Square-area-04.png)
+![](/assets/chapter-2-1-images/01.Square-area-04.PNG)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1047#0](https://judge.softuni.bg/Contests/Practice/Index/1047#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets/chapter-2-1-images/01.Square-area-05.png)
+![](/assets/chapter-2-1-images/01.Square-area-05.PNG)
 
-![](/assets/chapter-2-1-images/01.Square-area-06.png)
+![](/assets/chapter-2-1-images/01.Square-area-06.PNG)
 
 
 ### Задача:	от инчове към сантиметри
@@ -429,15 +451,15 @@ print('Perimeter = ', perimeter)
 
 Първо създаваме **нов Python файл** в проект “SimpleCalculations”. Кликаме с мишката върху решението в **SimpleCalculations** и избираме [**New**] -> [**Python File**]:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-01.png)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-01.PNG)
 
 Задаваме име “inches_to_centimeters”:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-02.png)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-02.PNG)
 
 Следва да напишем **кода на програмата**:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-03.png)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-03.PNG)
 
 **Стартираме** програмата с [**Ctrl+Shift+F10**] или с десен бутон - **Run**:
 
@@ -445,7 +467,7 @@ print('Perimeter = ', perimeter)
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-10.png)
+![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-10.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -453,7 +475,7 @@ print('Perimeter = ', perimeter)
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая), ще се получи следната грешка:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-13.png)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-13.PNG)
 
 Препоръчително е **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
@@ -467,7 +489,7 @@ print('Perimeter = ', perimeter)
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-16.png)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-16.PNG)
 
 
 ### Задача: поздрав по име
@@ -478,15 +500,15 @@ print('Perimeter = ', perimeter)
 
 Първо създаваме **нов Python файл** с име “greeting” в проекта “SimpleCalculations”:
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-01.png)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-01.PNG)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-02.png)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-02.PNG)
 
 **Стартираме** програмата с [**Ctrl+Shift+F10**] или с десен бутон - **Run**, и я тестваме дали работи:
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-03.png)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-03.PNG)
 
 #### Тестване в Judge системата
 
@@ -501,11 +523,11 @@ print('Perimeter = ', perimeter)
 
 Добавяме към текущия PyCharm проект още един Python файл с име “concatenate_data”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](/assets/chapter-2-1-images/04.Concatenate-data-01.png)
+![](/assets/chapter-2-1-images/04.Concatenate-data-01.PNG)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
-![](/assets/chapter-2-1-images/04.Concatenate-data-02.png)
+![](/assets/chapter-2-1-images/04.Concatenate-data-02.PNG)
 
 На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
 
@@ -528,7 +550,7 @@ print('Perimeter = ', perimeter)
 
 Отново трябва да добавим към текущия PyCharm проект още един **Python файл** с име ""trapezoid_area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](/assets/chapter-2-1-images/05.Trapezoid-area-02.png)
+![](/assets/chapter-2-1-images/05.Trapezoid-area-02.PNG)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
