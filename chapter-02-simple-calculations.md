@@ -105,7 +105,7 @@ print('Centimeters = ', centimeters)
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](/assets/chapter-2-1-images/00.Inches-to-centimeters-01.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-01.PNG)
 
 #### Тестване в Judge системата
 
@@ -467,7 +467,7 @@ print('Perimeter = ', perimeter)
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](/assets/old-images/chapter-2-images/02.Inches-to-centimeters-10.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-10.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -554,7 +554,7 @@ print('Perimeter = ', perimeter)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
-**Тествайте** решението локално с с [**Ctrl+Shift+F10**] или с десен бутон - **Run**, и въвеждане на примерни данни.
+**Тествайте** решението локално с [**Ctrl+Shift+F10**] или с десен бутон - **Run**, и въвеждане на примерни данни.
 
 #### Тестване в Judge системата
 
@@ -719,7 +719,7 @@ print('Perimeter = ', perimeter)
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1047#12](https://judge.softuni.bg/Contests/Practice/Index/1047#12).
 
-//TODO !!!
+
 ## Графични приложения с числови изрази
 
 За да упражним работата с променливи и пресмятания с оператори и числови изрази, ще направим нещо интересно: ще разработим **настолно приложение** с графичен потребителски интерфейс. В него ще използваме пресмятания с дробни числа.
@@ -728,80 +728,71 @@ print('Perimeter = ', perimeter)
 
 От нас се изисква да създадем **графично приложение** (GUI application), което пресмята стойността в **евро** (EUR) на парична сума, зададена в **лева** (BGN). При промяна на стойността в лева, равностойността в евро трябва да се преизчислява автоматично (използваме курс лева / евро: **1.95583**).
 
-![](/assets/old-images/chapter-2-images/13.Currency-converter-01.png)
+![](/assets/chapter-2-1-images/13.Currency-converter-01.PNG)
 
-Тази задача излиза извън изучавания в книгата материал и има за цел не да ви научи как да програмирате GUI приложения, а да ви запали интереса към разработката на софтуер. Да се залавяме за работа.
+**Забележка:** Тази задача излиза извън изучавания в книгата материал и има за цел не да ви научи как да програмирате GUI приложения, а да ви запали интереса към разработката на софтуер. Да се залавяме за работа.
 
-Добавяме към текущото Visual Studio решение (solution) още един проект. Този път създаваме **Windows Forms** приложение със Python с име "BGN-to-EUR-Converter":
+Добавяме към текущия PyCharm проект още един Python файл. Наименуваме го "BGN_to_EUR_converter". За да направим графично приложение с Python, ще използваме [**tkinter**](https://docs.python.org/3/library/tkinter.html#module-tkinter).
 
-![](/assets/old-images/chapter-2-images/13.Currency-converter-02.png)
+![](/assets/chapter-2-1-images/13.Currency-converter-02.PNG)
 
 Подреждаме следните UI контроли във формата:
-* **`NumericUpDown`** с име **`numericUpDownAmount`** – ще въвежда сумата за конвертиране
-*	**`Label`** с име **`labelResult`** – ще показва резултата след конвертиране
-*	Още два **`Label`** компонента, служещи единствено за статично изобразяване на текст
-Графичният редактор за потребителски интерфейс може да изглежда по подобен начин:
+* **Label** - ще ни служи за статично изобразяване на текст
+* **Entry** - ще въвежда сумата за конвертиране
+* **Button** - ще конвертира въведената сума
+* Още един **Label**, който ще показва резултата след конвертиране
 
-![](/assets/old-images/chapter-2-images/13.Currency-converter-03.png)
+Нека да започнем с особеностите на **tkinter**. На този етап всичко ще се случва **на магия**. Със следващия код ние си гарантираме, че графичното ни приложение ще работи правилно.
 
-Задаваме следните настройки на формата и на отделните контроли:
+![](/assets/chapter-2-1-images/13.Currency-converter-03.PNG)
 
-|                                             Настройка                                                 | Снимка|
-|:-----------------------------------------------------------------------------------------------------:|:-----:|
-|**``FormConverter``**:<br>Text = "BGN to EUR",<br>Font.Size = 12,<br>MaximizeBox = False,<br>MinimizeBox = False,<br>FormBorderStyle = FixedSingle | <img alt="formConverter" src ="/assets/chapter-2-images/13.Currency-converter-04.png" /> |
-|**``numericUpDownAmount``**:<br>Value = 1,<br>Minimum = 0,<br>Maximum = 10000000,<br>TextAlign = Right,<br>DecimalPlaces = 2 | <img alt="numUpDown" src ="/assets/chapter-2-images/13.Currency-converter-05.png" /> |
-|**``labelResult``**:<br>AutoSize = False,<br>BackColor = PaleGreen,<br>TextAlign = MiddleCenter,<br>Font.Size = 14,<br>Font.Bold = True| <img alt="labelResult" src ="/assets/chapter-2-images/13.Currency-converter-06.png" /> |
+Вече може да добавим контролите в т.нар. **функция**, която ще извикаме във функцията **__init__**, или т.нар. конструктор.
 
-Дефинираме следните **обработчици на събития** по контролите:
+![](/assets/chapter-2-1-images/13.Currency-converter-04.PNG)
 
-![](/assets/old-images/chapter-2-images/13.Currency-converter-07.png)
+Нашите контроли се намират във функцията **`create_widgets()`**. Добавяме текст за визуализация на първия **Label**, който ни е под името **`label`**. **`numberEntry`** е **Entry**, където ще се въвежда сумата за конвертиране. **`convertButton`** ще **хваща** събитие и ще изпълнява **команда** (в нашата задача ще извиква функцията **`convert()`**, която ще напишем малко по-късно). **`output`** е нашия **Label** за показване на резултат след като сме въвели сума и кликнали върху бутона. Задаваме му цвят на фона и на текста.
 
-След това хващаме следните събития:
-- **``FormConverter.Load``** (като кликнем върху формата 2 пъти с мишката)
-- **``numericUpDownAmount.ValueChanged``** (като кликнем върху **``NumericUpDown``** контролата 2 пъти)
-- **``numericUpDownAmount.KeyUp``** (избираме **``Events``** от таблото **``Properties``** и кликнем 2 пъти върху **``KeyUp``**)
+![](/assets/chapter-2-1-images/13.Currency-converter-05.PNG)
 
-Събитието **`Form.Load`** се изпълнява при стартиране на програмата, преди да се появи прозореца на приложението. Събитието **`NumericUpDown.ValueChanged`** се изпълнява при промяна на стойността в полето за въвеждане на число. Събитието **`NumericUpDown.KeyUp`** се изпълнява след натискане на клавиш в полето за въвеждане на число. При всяко от тези събития ще преизчисляваме резултата.
+След като сме инициализирали нашите контроли е ред да ги визуализираме. Това става лесно чрез вградения метод на **tkinter** - **`pack()`**.
 
-За **хващане на събитие** ползваме иконката със събитията (Events) в **Properties**  прозореца във Visual Studio:
+![](/assets/chapter-2-1-images/13.Currency-converter-06.PNG)
 
-![](/assets/old-images/chapter-2-images/13.Currency-converter-01.png)
+Остана да напишем **кода** (програмната логика) за конвертиране от лева към евро. Това ще го направим във функцията **`convert()`**.
 
-Ще използваме следния **Python код** за обработка на събитията:
-
-```csharp
-private void FormConverter_Load(object sender, EventArgs e)
-{
-  ConvertCurrency();
-}
-
-private void numericUpDownAmount_ValueChanged(object sender, EventArgs e)
-{
-  ConvertCurrency();
-}
-
-private void numericUpDownAmount_KeyUp(object sender, KeyEventArgs e)
-{
-  ConvertCurrency();
-}
+```python
+def convert(self):
+    entry = self.numberEntry.get()
+    value = float(entry)
+    result = round(value * 1.95583, 2)
+    self.output.config(text=str(value) + ' BGN = ' + str(result) + ' EUR')
 ```
 
-Всички прихванати събития извикват метода **`ConvertCurrency()`**, който конвертира зададената сума от лева в евро и показва резултата в зелената кутийка.
+На последния ред подаваме резултата на нашия **Label `output`**.
 
-Трябва да напишем **кода** (програмната логика) за конвертиране от лева към евро: 
+С този код ще имаме проблем. Какво ще стане, ако въведем нещо, различно от число?
 
-```csharp
-private void ConvertCurrency()
-{
-  var amountBGN = this.numericUpDownAmount.Value;
-  var amountEUR = amountBGN * 1.95583m;
-  this.labelResult.Text = 
-    amountBGN + " BGN = " + 
-    Math.Round(amountEUR, 2) + " EUR";
-}
+![](/assets/chapter-2-1-images/13.Currency-converter-07.PNG)
+
+Тази грешка можем да я **хванем** и да получаваме по-user-friendly съобщение на конзолата. Нека променим кода на нашата програмна логика.
+
+```python
+def convert(self):
+    entry = self.numberEntry.get()
+
+    try:
+        value = float(entry)
+        result = round(value * 1.95583, 2)
+        self.output.config(text=str(value) + ' BGN = ' + str(result) + ' EUR')
+    except ValueError:
+        print("That's not a number!")
 ```
 
-Накрая **стартираме проекта** с [**Ctrl+F5**] и тестваме дали работи коректно.
+По този начин ние улавяме грешката в **try блок** и когато въведем нещо, различно от число, ще получаваме **That's not a number!**.
+
+![](/assets/chapter-2-1-images/13.Currency-converter-08.PNG)
+
+Накрая **стартираме приложението** с [**Ctrl+Shift+F10**] или с десен бутон - **Run**, и тестваме дали работи коректно.
 
 Ако имате проблеми с примера по-горе, **гледайте видеото** в началото на тази глава. Там приложението е направено на живо стъпка по стъпка с много обяснения. Или питайте във **форума на СофтУни**: https://softuni.bg/forum.
 
