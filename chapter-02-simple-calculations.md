@@ -750,7 +750,7 @@ print('Perimeter = ', perimeter)
 * **Button** - ще конвертира въведената сума
 * Още един **Label**, който ще показва резултата след конвертиране
 
-Нашите компоненти се намират във функцията **`create_widgets()`**. Добавяме текст за визуализация на първия **Label**, който ни е под името **`label`**. **`numberEntry`** е **Entry**, където ще се въвежда сумата за конвертиране. **`convertButton`** ще **хваща** събитие и ще изпълнява **команда** (в нашата задача ще извиква функцията **`convert()`**, която ще напишем малко по-късно). **`output`** е нашия **Label** за показване на резултат след като сме въвели сума и кликнали върху бутона. Задаваме му цвят на фона и на текста.
+Нашите компоненти се намират във функцията **`create_widgets()`**. Добавяме текст за визуализация на първия **Label**, който ни е под името **`label`**. **`numberEntry`** е **Entry**, където ще се въвежда сумата за конвертиране. **`convertButton`** ще **хваща** събитие и ще изпълнява **команда** (в нашата задача ще извиква функцията **`convert()`**, която ще напишем малко по-късно). **`output`** е нашия **Label** за показване на резултат след като сме въвели сума и кликнали върху бутона.
 
 ![](/assets/chapter-2-1-images/13.Currency-converter-05.PNG)
 
@@ -765,16 +765,18 @@ def convert(self):
     entry = self.numberEntry.get()
     value = float(entry)
     result = round(value * 1.95583, 2)
-    self.output.config(text=str(value) + ' BGN = ' + str(result) + ' EUR')
+    self.output.config(
+        text=str(value) + ' BGN = ' + str(result) + ' EUR',
+        bg="green", fg="white")
 ```
 
-На последния ред подаваме резултата на нашия **Label `output`**.
+На последния ред подаваме резултата на нашия **Label `output`** и задаваме цвят на фона (**`bg`**) и на текста (**`fg`**).
 
 С този код ще имаме проблем. Какво ще стане, ако въведем нещо, различно от число?
 
 ![](/assets/chapter-2-1-images/13.Currency-converter-07.PNG)
 
-Тази грешка можем да я **хванем** и да получаваме по-user-friendly съобщение на конзолата. Нека променим кода на нашата програмна логика.
+Тази грешка можем да я **хванем** и да получаваме user-friendly съобщение в приложението ни. Нека променим кода на нашата програмна логика.
 
 ```python
 def convert(self):
@@ -783,9 +785,13 @@ def convert(self):
     try:
         value = float(entry)
         result = round(value * 1.95583, 2)
-        self.output.config(text=str(value) + ' BGN = ' + str(result) + ' EUR')
+        self.output.config(
+            text=str(value) + ' BGN = ' + str(result) + ' EUR',
+            bg="green", fg="white")
     except ValueError:
-        print("That's not a number!")
+        self.output.config(
+            text="That's not a number!",
+            bg="red", fg="black")
 ```
 
 По този начин ние улавяме грешката в **try блок** и когато въведем нещо, различно от число, ще получаваме **That's not a number!**.
