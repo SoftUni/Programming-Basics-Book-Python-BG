@@ -5,6 +5,7 @@
 ## Видео
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank"
+                                            
   href="https://www.youtube.com/watch?v=aeeje4nIzas&feature=youtu.be">
   https://www.youtube.com/watch?v=aeeje4nIzas&feature=youtu.be</a>.
 </div>
@@ -515,7 +516,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 Примерен код на описаната идея (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](/assets/chapter-4-images/11.Volleyball-01.png)
+![](/assets/chapter-4-images/12.Volleyball-01.png)
 
 #### Тестване в Judge системата
 
