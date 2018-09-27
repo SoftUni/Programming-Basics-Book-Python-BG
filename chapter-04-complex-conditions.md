@@ -301,7 +301,7 @@ result = a or b or c or d
 
 #### Решение
 
-![](/assets/chapter-4-images/07.Fruit-shop-01.png)
+![](/assets/chapter-4-1-images/07.Fruit-shop-01.png)
 
 #### Тестване в Judge системата
 
@@ -328,7 +328,7 @@ result = a or b or c or d
 
 При прочитането на входа можем да обърнем града в малки букви (с функцията **`.lower()`**). Първоначално задаваме комисионната да е **`-1`**. Тя ще бъде променена, ако градът и ценовият диапазон бъдат намерени в таблицата с комисионните. За да изчислим комисионната според града и обема на продажбите, се нуждаем от няколко вложени **`if` проверки**, както е в примерния код по-долу:
 
-![](/assets/chapter-4-images/08.Trade-comissions-01.png)
+![](/assets/chapter-4-1-images/08.Trade-comissions-01.png)
 
 #### Тестване в Judge системата
 
@@ -374,7 +374,7 @@ switch (селектор)
 
 #### Решение
 
-![](/assets/chapter-4-images/09.Day-of-week-01.png)
+![](/assets/chapter-4-1-images/09.Day-of-week-01.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Добра практика</b> е на <b>първо</b> място да поставяме онези условия, които обработват <b>най-често случилите се ситуации</b>, а <b>конструкциите</b>, обработващи <b>по-рядко възникващи ситуации</b>, да оставим в <b>края на конструкцията</b>. Друга <b>добра практика</b> е да <b>подреждаме случайте</b> в <b>нарастващ ред</b>, без значение дали са целочислени или символни.</td>
@@ -428,7 +428,7 @@ switch (селектор)
 
 Можем да решим задачата чрез няколко **`if-elif`** проверки по следния начин:
 
-![](/assets/chapter-4-images/10.Animal-type-01.png)
+![](/assets/chapter-4-1-images/10.Animal-type-01.png)
 
 #### Тестване в Judge системата
 
@@ -482,7 +482,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 Примерен код на описаната идея (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](/assets/chapter-4-images/11.Cinema-01.png)
+![](/assets/chapter-4-1-images/11.Cinema-01.png)
 
 #### Тестване в Judge системата
 
@@ -516,7 +516,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 Примерен код на описаната идея (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](/assets/chapter-4-images/12.Volleyball-01.png)
+![](/assets/chapter-4-1-images/12.Volleyball-01.png)
 
 #### Тестване в Judge системата
 
@@ -559,7 +559,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 * Може да разделим фигурата на **два правоъгълника** с обща стена:
 
-<p align="center"><img src="assets/chapter-4-images/13.Point-in-the-figure-03.png" /></p>
+<p align="center"><img src="assets/chapter-4-1-images/13.Point-in-the-figure-03.png" /></p>
 
 * Една точка е **външна (outside)** за фигурата, когато е едновременно **извън** двата правоъгълника.
 * Една точка е **вътрешна (inside)** за фигурата, ако е вътре в някой от правоъгълниците (изключвайки стените им) или лежи върху общата им стена.
@@ -567,7 +567,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](/assets/chapter-4-images/13.Point-in-the-figure-02.png)
+![](/assets/chapter-4-1-images/13.Point-in-the-figure-02.png)
 
 #### Тестване в Judge системата
 
