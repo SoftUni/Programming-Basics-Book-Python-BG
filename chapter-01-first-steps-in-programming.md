@@ -192,7 +192,7 @@ print('Hello Python')
 
 За стартиране на програмата натискаме [**Ctrl + Shift + F10**] или десен бутон - [**Run**]. Ако няма грешки, програмата ще се изпълни. Резултатът ще се изпише на конзолата:
 
-![](/assets/chapter-1-images/00.Hello-python-04.PNG)
+![](/assets/chapter-1-images/01.Hello-python-04.PNG)
 
 Всъщност, изхода от програмата е следното текстово съобщение:
 
@@ -201,8 +201,6 @@ Hello Python
 ```
 
 Съобщението "**Process finished with exit code 0**" се изписва допълнително на най-долния ред на конзолата на PyCharm след като програмата завърши, за да ни покаже, че програмата се е изпълнила без грешки.
-
-***
 
 ### Тестване на програмата в Judge системата
 
@@ -276,11 +274,11 @@ print('Hello Python)
 
 Създаваме нов Python файл с име **expression**. След това трябва да **напишем кода**, който да изчисли горния числен израз и да отпечата на конзолата стойността му. Подаваме горния числен израз в скобите на командата **``print(…)``**:
 
-![](/assets/chapter-1-images/01.Expression-01.PNG)
+![](/assets/chapter-1-images/02.Expression-01.PNG)
 
 Стартираме програмата с [**Ctrl + Shift + F10**] и проверяваме дали резултата е същия като на картинката:
 
-![](/assets/chapter-1-images/01.Expression-02.PNG)
+![](/assets/chapter-1-images/02.Expression-02.PNG)
 
 #### Тестване в Judge системата
 
@@ -435,7 +433,7 @@ print('**')
 
 ![](/assets/chapter-1-images/07.Numbers-sum-02.PNG)
 
-Добавяме в проекта нов Python файл с име **sumator.py**. Добавяме tkinter:
+Добавяме в проекта нов Python файл с име **sumator.py**. Добавяме и **tkinter**:
 
 ![](/assets/chapter-1-images/07.Numbers-sum-03.PNG)
 
