@@ -139,7 +139,7 @@ print(euro)
 
 След като PyCharm се инсталира, ще се появи информативен екран, където можем да сложим отметка ([**Run PyCharm ...**]), за да го стартираме. След **старта на PyCharm** излиза екран като този по-долу:
 
-![](/assets/chapter-1-images/00.Hello-python-01.PNG)
+![](/assets/chapter-1-images/01.Hello-python-01.PNG)
 
 Това е всичко. Готови сме за работа с PyCharm.
 
@@ -164,11 +164,11 @@ print(euro)
 
 Да се върнем на нашата конзолна програма. Вече имаме PyCharm и можем да го стартираме. След това създаваме нов проект: [**Create New Project**].
 
-![](/assets/chapter-1-images/00.Hello-python-01.PNG)
+![](/assets/chapter-1-images/01.Hello-python-01.PNG)
 
 Задаваме **смислено име** на нашата програма, например **`FirstStepsInProgramming`**:
 
-![](/assets/chapter-1-images/00.Hello-python-02.PNG)
+![](/assets/chapter-1-images/01.Hello-python-02.PNG)
 
 PyCharm ще създаде за нас **празен проект**, в който може да добавяме Python файлове. Добавяме нов Python файл ([**File**] или десен бутон на проекта ни -> [**New**] -> [**Python File**]) и му задаваме смислено име, например `helloPython`.
 
@@ -182,7 +182,7 @@ print('Hello Python')
 
 Ето как трябва да изглежда нашата програма в PyCharm:
 
-![](/assets/chapter-1-images/00.Hello-python-03.PNG)
+![](/assets/chapter-1-images/01.Hello-python-03.PNG)
 
 Командата **`print('Hello Python')`** на езика Python означава да изпълним отпечатване (**`print(…)`**) върху конзолата и да отпечатаме текстово съобщение **`Hello Python`**, което трябва да оградим с кавички, за да поясним, че това е текст.
 
@@ -210,11 +210,11 @@ Hello Python
 
 Горната програма може да тестваме тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#0](https://judge.softuni.bg/Contests/Practice/Index/1046#0). За целта поставяме целия сорс код на програмата в черното поле и избираме **Python code**, както е показано тук:
 
-![](/assets/chapter-1-images/00.Hello-python-05.PNG)
+![](/assets/chapter-1-images/01.Hello-python-05.PNG)
 
 Изпращаме решението за оценяване с бутона [**Изпрати**] (или [**Submit**]). Системата връща резултат след няколко секунди в таблицата с изпратени решения. При необходимост може да натиснем бутона за обновяване на резултатите **[Refresh]**, който се намира в горната дясна част на таблицата с изпратени за проверка решения:
 
-![](/assets/chapter-1-images/00.Hello-python-06.PNG)
+![](/assets/chapter-1-images/01.Hello-python-06.PNG)
 
 В таблицата с изпратените решения Judge системата ще покаже един от следните **възможни резултати**:
 * **Брой точки** (между 0 и 100), когато предаденият код се компилира успешно (няма синтактични грешки) и може да бъде тестван.
@@ -250,7 +250,7 @@ print('Hello Python)
 
 Тази програма ще даде **грешка** и кода ще бъде подчертан, за да се насочи вниманието на програмиста към грешката, която е допуснал (пропуснатата затваряща кавичка):
 
-![](/assets/chapter-1-images/00.Hello-python-07.PNG)
+![](/assets/chapter-1-images/01.Hello-python-07.PNG)
 
 
 ## Какво научихме от тази глава?
