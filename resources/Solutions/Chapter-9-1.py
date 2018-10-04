@@ -51,13 +51,15 @@ for i in range(0, len(tribonacci_numbers)):
 if not found:
     print("No")
 
-while tribonacci_current <= 1000000 and spiral_current <= 1000000:
-    if tribonacci_current == spiral_current:
-        print("TODO: Print and stop execution")
-    elif tribonacci_current < spiral_current:
-        print("TODO: Generate next Tribonacci number")
-    else:
-        print("TODO: Generate next Spiral number")
+# Faster implementation:
+# while tribonacci_current <= 1000000 and spiral_current <= 1000000:
+#     if tribonacci_current == spiral_current:
+#         print("TODO: Print and stop execution")
+#     elif tribonacci_current < spiral_current:
+#         print("TODO: Generate next Tribonacci number")
+#     else:
+#         print("TODO: Generate next Spiral number")
+
 
 #
 # Problem 2
@@ -102,6 +104,7 @@ while date.year <= second_year:
 
 if not found:
     print("No")
+
 
 #
 # Problem 3
