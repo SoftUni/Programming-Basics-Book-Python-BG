@@ -17,6 +17,10 @@ _book
 
 **/*.DS_Store
 
+# Speedy-Git & ShadowGit files
+Speedy-Git.bat
+Shadow-Git.rb
+
 # VScode
 .vscode/*
 !.vscode/settings.json
@@ -26,3 +30,6 @@ _book
 /resources/Prepress-Scripts/Prepress-Book-in-MS-Word/obj
 /resources/Prepress-Scripts/Prepress-Book-in-MS-Word/.vs
 /resources/Prepress-Scripts/Prepress-Book-in-MS-Word/bin
+
+# PyCharm
+.idea/*
