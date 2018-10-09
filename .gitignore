@@ -30,3 +30,6 @@ Shadow-Git.rb
 /resources/Prepress-Scripts/Prepress-Book-in-MS-Word/obj
 /resources/Prepress-Scripts/Prepress-Book-in-MS-Word/.vs
 /resources/Prepress-Scripts/Prepress-Book-in-MS-Word/bin
+
+# PyCharm
+.idea/*
