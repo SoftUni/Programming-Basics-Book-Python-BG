@@ -249,7 +249,7 @@
 
 Ако откриете **грешки**, неточности или дефекти в книгата, можете да ги докладвате в официалния тракер на проекта:
 
-<p align="center"><strong><a href="https://github.com/SoftUni/Programming-Basics-Book-JS-BG/issues">https://github.com/SoftUni/Programming-Basics-Book-JS-BG/issues</a></strong></p>
+<p align="center"><strong><a href="https://github.com/SoftUni/Programming-Basics-Book-Python-BG/issues">https://github.com/SoftUni/Programming-Basics-Book-Python-BG/issues</a></strong></p>
 
 Не обещаваме, че ще поправим всичко, което ни изпратите, но пък имаме желание **постоянно да подобряваме качеството** на настоящата книга, така че докладваните безспорни грешки и всички разумни предложения ще бъдат разгледани.
 
