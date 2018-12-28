@@ -6,8 +6,8 @@
 
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank"
-  href="https://www.youtube.com/watch?v=pvTMTGsooMk&feature=youtu.be">
-  https://www.youtube.com/watch?v=pvTMTGsooMk&feature=youtu.be</a>.
+  href="https://www.youtube.com/watch?v=pvTMTGsooMk">
+  https://www.youtube.com/watch?v=pvTMTGsooMk</a>.
 </div>
 <script src="/assets/js/video.js"></script>
 
