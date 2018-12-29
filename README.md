@@ -2,7 +2,7 @@
 
 Книгата "**Основи на програмирането с Python**" запознава читателите с писането на **програмен код** на начално ниво (работа с данни, проверки, цикли и функции) с езика **Python**.
 
-<img src="/assets/Python-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането с Python - корица" class="readme-book-cover-image" />
+<a href="https://github.com/SoftUni/Programming-Basics-Book-Python-BG/blob/master/resources/Programming-Basics-Python-v2018.pdf"><img src="/assets/Python-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането с Python - корица" class="readme-book-cover-image" /></a>
 
 * [Предговор](chapter-00-preface.md)
 * [1. Първи стъпки в програмирането](chapter-01-first-steps-in-programming.md)
