@@ -624,7 +624,7 @@
 
 |Вход|Изход|Вход|Изход|
 |---|---|---|---|
-|3<br>999<br>-420<br>1020|nine-hundred and ninety nine<br>minus four-hundred and twenty<br>too large|2<br>15<br>350|three-hundred and fifty|
+|3<br>999<br>-420<br>1020|nine-hundred and ninety nine<br>minus four-hundred and twenty<br>too large|2<br>15<br>350|fifteen<br>three-hundred and fifty|
 
 |Вход|Изход|Вход|Изход|
 |---|---|---|---|
