@@ -2,11 +2,13 @@
 
 В **настоящата** глава ще разгледаме **вложените проверки** в езика **Python**, чрез които нашата програма може да съдържа **условни конструкции**, в които има **вложени други условни конструкции**. Наричаме ги **"вложени"**, защото **поставяме `if` конструкция** в **друга `if` конструкция**. Ще разгледаме и **по-сложни логически условия** с подходящи примери.
 
+
 ## Видео
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=aeeje4nIzas">https://www.youtube.com/watch?v=aeeje4nIzas</a>.
+  Гледайте видео-урок по тази глава тук: <a target="_blank"
+  href="https://www.youtube.com/watch?v=aeeje4nIzas">
+  https://www.youtube.com/watch?v=aeeje4nIzas</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 
 ## Вложени проверки
