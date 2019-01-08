@@ -7,12 +7,15 @@
 - Как да извършваме прости **аритметични операции**: събиране, изваждане, умножение, деление, съединяване на стринг.
 - Как да **закръгляме** числа.
 
+
 ## Видео
 
 <div class="video-player">
-Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=qcBWD8ImVRI">https://www.youtube.com/watch?v=qcBWD8ImVRI</a>.
+  Гледайте видео-урок по тази глава тук: <a target="_blank"
+  href="https://www.youtube.com/watch?v=qcBWD8ImVRI">
+  https://www.youtube.com/watch?v=qcBWD8ImVRI</a>.
 </div>
-<script src="/assets/js/video.js"></script>
+
 
 ## Пресмятания в програмирането
 
