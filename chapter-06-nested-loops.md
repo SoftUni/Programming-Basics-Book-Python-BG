@@ -6,11 +6,11 @@
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="\_blank"
+  Гледайте видео-урок по тази глава тук: <a target="_blank"
   href="https://www.youtube.com/watch?v=kkxl1bitNAg">
   https://www.youtube.com/watch?v=kkxl1bitNAg</a>.
 </div>
-<script src="/assets/js/video.js"></script>
+
 
 ### Пример: правоъгълник от 10 x 10 звездички
 
