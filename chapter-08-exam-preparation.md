@@ -10,7 +10,6 @@
   href="https://www.youtube.com/watch?v=OYuT5_j1OVE">
   https://www.youtube.com/watch?v=OYuT5_j1OVE</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 
 ## Практически изпит по “Основи на програмирането”
