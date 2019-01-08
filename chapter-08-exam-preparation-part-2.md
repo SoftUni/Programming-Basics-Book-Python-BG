@@ -10,7 +10,6 @@
   href="https://www.youtube.com/watch?v=Lprl_zAnz-o">
   https://www.youtube.com/watch?v=Lprl_zAnz-o</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 
 ## Изпитни задачи
