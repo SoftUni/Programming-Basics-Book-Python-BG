@@ -431,7 +431,7 @@ ac
 ```python
 width = 5
 height = 7
-print('width = {} ; height = {} ; area = {}'.format(width, height, text, width * height))
+print('width = {} ; height = {} ; area = {}'.format(width, height, width * height))
 ```
 Резултатът е отново същият:
 ```
