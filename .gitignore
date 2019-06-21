@@ -1,10 +1,7 @@
-# Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+## Dependency directory (npm)
 node_modules
 
 # Book build output
@@ -16,10 +13,6 @@ _book
 *.pdf
 
 **/*.DS_Store
-
-# Speedy-Git & ShadowGit files
-Speedy-Git.bat
-Shadow-Git.rb
 
 # VScode
 .vscode/*
