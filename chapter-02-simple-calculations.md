@@ -21,7 +21,7 @@
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**. Променливите са именувани области от паметта, които пазят данни от определен тип, например число или текст. Всяка една **променлива** в Python има **име** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията ѝ, ѝ присвояваме и стойност:
 
-![](/assets/chapter-2-1-images/00.Declaring-variables-01.PNG)
+![](/assets/chapter-2-1-images/00.Declaring-variables-01.png)
 
 След тяхната обработка, данните се записват отново в променливи (т.е. някъде в паметта, заделена от нашата програма).
 
@@ -75,7 +75,7 @@ print('Square area = ', area)
 
 Ето как би работила програмата при квадрат с размер на страната 3:
 
-![](/assets/chapter-2-1-images/00.Square-area-01.PNG)
+![](/assets/chapter-2-1-images/00.Square-area-01.png)
 
 Опитайте да въведете грешно число, например "**hello**". Ще получите съобщение за **грешка** по време на изпълнение (exception). Това е нормално. По-късно ще разберем как можем да прихващаме такива грешки и да караме потребителят да въвежда число наново.
 
@@ -146,7 +146,7 @@ print('Centimeters = ', centimeters)
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-01.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-01.png)
 
 #### Тестване в Judge системата
 
@@ -175,7 +175,7 @@ print(name, end='!')
 
 Ето и резултата, ако извикаме функцията с името "Иван":
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-00.PNG)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-00.png)
 
 #### Тестване в Judge системата
 
@@ -200,7 +200,7 @@ print('You are {0} {1}, a {2}-years old person from {3}.'
 
 Ето резултата, който ще получим, след изпълнение на този пример:
 
-![](/assets/chapter-2-1-images/00.Placeholders-01.PNG)
+![](/assets/chapter-2-1-images/00.Placeholders-01.png)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид** и това създава голямо удобство при печатане.
 
@@ -538,7 +538,7 @@ print('Perimeter = ', perimeter)
 
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets/chapter-2-1-images/00.Circle-area-01.PNG)
+![](/assets/chapter-2-1-images/00.Circle-area-01.png)
 
 #### Тестване в Judge системата
 
@@ -573,7 +573,7 @@ print('Perimeter = ', perimeter)
 
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![](/assets/chapter-2-1-images/00.Rectangle-area-02.PNG)
+![](/assets/chapter-2-1-images/00.Rectangle-area-02.png)
 
 #### Тестване в Judge системата
 
@@ -615,23 +615,23 @@ print('Perimeter = ', perimeter)
 
 Ще се отвори **диалогов прозорец** за избор на **името** на файла. Наименуваме го "square_area":
 
-![](/assets/chapter-2-1-images/01.Square-area-02.PNG)
+![](/assets/chapter-2-1-images/01.Square-area-02.png)
 
 Вече имаме проект с един файл в него. Остава да напишем **кода за решаване на задачата**. За целта отиваме във файла и пишем следния код:
 
-![](/assets/chapter-2-1-images/01.Square-area-03.PNG)
+![](/assets/chapter-2-1-images/01.Square-area-03.png)
 
 Кодът прочита цяло число чрез **`a = int(input('a = '))`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl + Shift + F10**] или с десен бутон - [**Run**], и я **тестваме** с различни входни стойности:
 
-![](/assets/chapter-2-1-images/01.Square-area-04.PNG)
+![](/assets/chapter-2-1-images/01.Square-area-04.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1047#0](https://judge.softuni.bg/Contests/Practice/Index/1047#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets/chapter-2-1-images/01.Square-area-05.PNG)
+![](/assets/chapter-2-1-images/01.Square-area-05.png)
 
-![](/assets/chapter-2-1-images/01.Square-area-06.PNG)
+![](/assets/chapter-2-1-images/01.Square-area-06.png)
 
 
 ### Задача:	от инчове към сантиметри
@@ -642,11 +642,11 @@ print('Perimeter = ', perimeter)
 
 Първо създаваме **нов Python файл** в проекта "SimpleCalculations". За целта кликаме с десен бутон на мишката върху решението **SimpleCalculations** и избираме [**New**] -> [**Python File**]. Задаваме име "inches_to_centimeters":
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-02.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-02.png)
 
 Следва да напишем **кода на програмата**:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-03.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-03.png)
 
 **Стартираме** програмата с [**Ctrl + Shift + F10**] или с десен бутон - [**Run**]:
 
@@ -654,7 +654,7 @@ print('Perimeter = ', perimeter)
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-05.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-05.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -662,7 +662,7 @@ print('Perimeter = ', perimeter)
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая), ще се получи следната грешка:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-06.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-06.png)
 
 Препоръчително е **да променим настройките на компютъра си**, така че да се използва **десетична точка**. В Windows това става от контролния панел:
 
@@ -676,7 +676,7 @@ print('Perimeter = ', perimeter)
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](/assets/chapter-2-1-images/02.Inches-to-centimeters-09.PNG)
+![](/assets/chapter-2-1-images/02.Inches-to-centimeters-09.png)
 
 
 ### Задача: поздрав по име
@@ -687,15 +687,15 @@ print('Perimeter = ', perimeter)
 
 Първо създаваме **нов Python файл** с име "greeting_by_name" в проекта "SimpleCalculations":
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-01.PNG)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-01.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-02.PNG)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-02.png)
 
 **Стартираме** програмата с [**Ctrl + Shift + F10**] или с десен бутон - [**Run**], за да тестваме дали работи коректно:
 
-![](/assets/chapter-2-1-images/03.Greeting-by-name-03.PNG)
+![](/assets/chapter-2-1-images/03.Greeting-by-name-03.png)
 
 #### Тестване в Judge системата
 
@@ -710,11 +710,11 @@ print('Perimeter = ', perimeter)
 
 Добавяме към текущия PyCharm проект още един Python файл с име "concatenate_data". **Пишем кода**, който чете входните данни от конзолата:
 
-![](/assets/chapter-2-1-images/04.Concatenate-data-01.PNG)
+![](/assets/chapter-2-1-images/04.Concatenate-data-01.png)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, е целенасочено размазан и трябва да се допише от читателя:
 
-![](/assets/chapter-2-1-images/04.Concatenate-data-02.PNG)
+![](/assets/chapter-2-1-images/04.Concatenate-data-02.png)
 
 Следва да се тества решението локално с [**Ctrl + Shift + F10**] или с десен бутон - [**Run**], и въвеждане на примерни входни данни.
 
@@ -742,7 +742,7 @@ print('Perimeter = ', perimeter)
 
 Отново трябва да добавим към текущия PyCharm проект още един **Python файл** с име "trapezoid_area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**. Кодът на картинката е нарочно размазан, за да помисли читателят върху него и да го допише сам:
 
-![](/assets/chapter-2-1-images/05.Trapezoid-area-02.PNG)
+![](/assets/chapter-2-1-images/05.Trapezoid-area-02.png)
 
 **Тествайте** решението локално с [**Ctrl + Shift + F10**] или с десен бутон - [**Run**], и въвеждане на примерни данни.
 
@@ -918,21 +918,21 @@ print('Perimeter = ', perimeter)
 
 От нас се изисква да създадем **графично приложение** (GUI application), което пресмята стойността в **евро** (EUR) на парична сума, зададена в **лева** (BGN). Използваме курс лева / евро: **1.95583**).
 
-![](/assets/chapter-2-1-images/13.Currency-converter-01.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-01.png)
 
 **Забележка:** тази задача излиза извън изучавания в книгата материал и има за цел не да ви научи как да програмирате GUI приложения, а да ви запали интереса към разработката на софтуер. Да се залавяме за работа.
 
 Добавяме към текущия PyCharm проект още един Python файл. Наименуваме го "BGN_to_EUR_converter". За да направим графично приложение с Python, ще използваме стандартната библиотека [**tkinter**](https://docs.python.org/3/library/tkinter.html#module-tkinter).
 
-![](/assets/chapter-2-1-images/13.Currency-converter-02.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-02.png)
 
 Първо създаваме графично приложение (**Application**), което представлява правоъгълна рамка за компоненти (**Frame**). На този етап всичко ще се случва без обяснения, като **на магия**:
 
-![](/assets/chapter-2-1-images/13.Currency-converter-03.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-03.png)
 
 Вече може да добавим компонентите на приложението ни в т.нар. **функция**, която ще извикаме във функцията **__init__**, или т.нар. **конструктор**:
 
-![](/assets/chapter-2-1-images/13.Currency-converter-04.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-04.png)
 
 Подреждаме следните UI компоненти:
 
@@ -943,11 +943,11 @@ print('Perimeter = ', perimeter)
 
 Нашите компоненти се намират във функцията **`create_widgets()`**. Добавяме текст за визуализация на първия **Label**, който ни е под името **`label`**. **`numberEntry`** е **Entry**, където ще се въвежда сумата за конвертиране. **`convertButton`** ще **хваща** събитие и ще изпълнява **команда** (в нашата задача ще извиква функцията **`convert()`**, която ще напишем малко по-късно). **`output`** е нашия **Label** за показване на резултат след като сме въвели сума и кликнали върху бутон:
 
-![](/assets/chapter-2-1-images/13.Currency-converter-05.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-05.png)
 
 След като сме инициализирали нашите компоненти е ред да ги визуализираме. Това става лесно чрез вградения метод в **tkinter** - **`pack()`**:
 
-![](/assets/chapter-2-1-images/13.Currency-converter-06.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-06.png)
 
 Остана да напишем **кода** (програмната логика) за конвертиране от лева към евро. Това ще го направим във функцията **`convert()`**:
 
@@ -968,7 +968,7 @@ def convert(self):
 
 С този код ще имаме проблем. Какво ще стане, ако въведем нещо, различно от число?
 
-![](/assets/chapter-2-1-images/13.Currency-converter-07.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-07.png)
 
 Тази грешка можем да я **хванем** и да получаваме user-friendly съобщение в приложението ни. За целта нека променим кода на нашата програмна логика:
 
@@ -990,7 +990,7 @@ def convert(self):
 
 По този начин ние прихващаме грешката в **try блок** и когато въведем нещо, различно от число, ще получаваме съобщение **That's not a number!**.
 
-![](/assets/chapter-2-1-images/13.Currency-converter-08.PNG)
+![](/assets/chapter-2-1-images/13.Currency-converter-08.png)
 
 Накрая **стартираме приложението** с [**Ctrl + Shift + F10**] или с десен бутон + [**Run**], и тестваме дали работи коректно.
 
@@ -1003,7 +1003,7 @@ def convert(self):
 
 Ще започнем със същия код от предната задача. Нека променим името на приложението ни на **Catch the Button!** и този път ще зададем размера на прозореца:
 
-![](/assets/chapter-2-1-images/14.Catch-the-button-02.PNG)
+![](/assets/chapter-2-1-images/14.Catch-the-button-02.png)
 
 Ще имаме следните компоненти:
 - **Button** - бутонът, който трябва да **хванем**.
@@ -1011,22 +1011,22 @@ def convert(self):
 
 Създаваме бутон с **текст "Catch me!"** и **команда - функцията `on_click()`**, която ще напишем по-късно. Визуализираме компонентите чрез метода **`pack()`**. Нека и двата компонента са **най-отгоре (top)**:
 
-![](/assets/chapter-2-1-images/14.Catch-the-button-03.PNG)
+![](/assets/chapter-2-1-images/14.Catch-the-button-03.png)
 
 В нашата задача ще ползваме т.нар. операция **binding**. Това представлява **хващане** на промяна и изпълняване на определена функция. Чрез този код указваме на програмата ни, че при преместване на курсора на мишката върху бутона, ще се изпълни функцията **`on_enter()`**, а при преместването на курсора на мишката извън бутона, ще се изпълни функцията **`on_leave()`**:
 
-![](/assets/chapter-2-1-images/14.Catch-the-button-04.PNG)
+![](/assets/chapter-2-1-images/14.Catch-the-button-04.png)
 
 За преместването на бутона на случайна позиция ще използваме **`random`**:
 
-![](/assets/chapter-2-1-images/14.Catch-the-button-05.PNG)
+![](/assets/chapter-2-1-images/14.Catch-the-button-05.png)
 
 Нека имплементираме трите функции, които са програмната логика в приложението ни:
   * **`on_enter(self, event)`** - избираме случайни **`x`** и **`y`** координати, които ще се променят всеки път, когато преместим курсора на мишката върху бутона; променяме и местоположението на бутона - в нашия пример ще бъде **статично отдясно**, но може да направите своя логика и да променяте всеки път посоката на бутона, заедно със случайните числа за координати.
   * **`on_leave(self, event)`** - когато курсора на мишката не е върху бутона, нашият поздрав не трябва да се показва; конфигурираме нашия **label** да **няма текст**.
   * **`on_click()`** - когато кликнем върху бутона, нашия **label** вече е с текст - **You win!**.
 
-![](/assets/chapter-2-1-images/14.Catch-the-button-06.PNG)
+![](/assets/chapter-2-1-images/14.Catch-the-button-06.png)
 
 Възможно е не всичко да тръгне гладко от първия път. Примерите по-горе съдържат **неизучаван материал** и имат за цел да ви запалят любопитството и да ви накарат да се поразровите в Интернет и **да потърсите сами решения** за възникващите трудности.
 
