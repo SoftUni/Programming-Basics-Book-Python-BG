@@ -26,3 +26,6 @@ _book
 
 # PyCharm
 .idea/*
+
+# GitHub Pages deployment folder
+_gh-pages

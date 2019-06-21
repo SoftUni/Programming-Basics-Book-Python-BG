@@ -6,11 +6,11 @@ call gitbook install
 
 call gitbook build . --log=debug --debug
 
-git clone https://github.com/SoftUni/Programming-Basics-Book-Python-BG -b gh-pages gh-pages
+git clone https://github.com/SoftUni/Programming-Basics-Book-Python-BG -b gh-pages _gh-pages
 
-xcopy /s /y _book gh-pages
+xcopy /s /y _book _gh-pages
 
-cd gh-pages
+cd _gh-pages
 
 git add .
 
