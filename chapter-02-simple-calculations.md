@@ -11,9 +11,8 @@
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank"
-  href="https://www.youtube.com/watch?v=qcBWD8ImVRI">
-  https://www.youtube.com/watch?v=qcBWD8ImVRI</a>.
+  Гледайте видео-урок по тази глава тук:
+  https://www.youtube.com/watch?v=qcBWD8ImVRI.
 </div>
 
 

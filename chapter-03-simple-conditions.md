@@ -6,9 +6,8 @@
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank"
-  href="https://www.youtube.com/watch?v=cQIl0wQLVRE">
-  https://www.youtube.com/watch?v=cQIl0wQLVRE</a>.
+  Гледайте видео-урок по тази глава тук: 
+  https://www.youtube.com/watch?v=cQIl0wQLVRE.
 </div>
 
 

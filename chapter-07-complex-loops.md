@@ -13,9 +13,8 @@
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank"
-  href="https://www.youtube.com/watch?v=IPJigJNDuKQ">
-  https://www.youtube.com/watch?v=IPJigJNDuKQ</a>.
+  Гледайте видео-урок по тази глава тук: 
+  https://www.youtube.com/watch?v=IPJigJNDuKQ.
 </div>
 
 
