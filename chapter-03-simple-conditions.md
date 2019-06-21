@@ -76,7 +76,7 @@ if условие:
 
 Въвеждаме оценка в конзолата и проверяваме дали тя е отлична (**`≥ 5.50`**).
 
-![](assets/chapter-3-1-images/01.ЕxcellentResult.png)
+![](assets/chapter-3-1-images/01.ExcellentResult.png)
 
 Тествайте кода от примера локално. Опитайте да въведете различни оценки, например **4.75**, **5.49**, **5.50** и **6.00**. При оценки **по-малки от 5.50** програмата няма да изведе нищо, а при оценка **5.50 или по-голяма**, ще изведе "**Excellent!**".
 
@@ -379,15 +379,15 @@ else:
  
 Вече имаме Project с еднин файл в него. Остава да напишем кода за решаване на задачата. За целта пишем следния код:
 
- ![](/assets/chapter-3-1-images/01.ЕxcellentResult-01.png)
+ ![](/assets/chapter-3-1-images/01.ExcellentResult-01.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1049#0](https://judge.softuni.bg/Contests/Practice/Index/1049#0).
 
- ![](/assets/chapter-3-1-images/01.ЕxcellentResult-02.png) 
+ ![](/assets/chapter-3-1-images/01.ExcellentResult-02.png) 
 
- ![](/assets/chapter-3-1-images/01.ЕxcellentResult-03.png)
+ ![](/assets/chapter-3-1-images/01.ExcellentResult-03.png)
 
 
 ### Задача: отлична оценка или не
