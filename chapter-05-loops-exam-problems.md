@@ -147,7 +147,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#0](https://judge.softuni.bg/Contests/Practice/Index/1054#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1054#0](https://judge.softuni.org/Contests/Practice/Index/1054#0).
 
 
 ## Задача: умната Лили
@@ -227,11 +227,11 @@
 
 В някои програмни езици съществува конструкция, като **условния оператор (`?:`)** (наричан още тернарен оператор), тъй като записът е по-кратък. В Python синтаксисът му е следният: **`операнд1 if операнд2 else операнд3`**. Вторият операнд е нашето условие и трябва да е от **булев тип** (т.е. да връща **`true/false`**). Ако **`операнд2`** върне стойност **`true`**, то ще се изпълни **`операнд1`**, а ако върне **`false`** – **`операнд3`**. В нашия случай проверяваме дали **събраните пари** от Лили стигат за една пералня. Ако те са повече или равни на цената на пералнята, то проверката **`saved_money >= price_of_washing_machine`** ще върне **`true`** и ще се отпечата "**Yes! …**", а ако е по-малко – резултатът ще е **`false`** и ще се отпечата "**No! …**". Разбира се, вместо условния оператор, можем да използваме и обикновени **`if`** проверки.
 
-Повече за условния оператор: [http://book.pythontips.com/en/latest/ternary_operators.html](http://book.pythontips.com/en/latest/ternary_operators.html).
+Повече за условния оператор: [https://book.pythontips.com/en/latest/ternary_operators.html](https://book.pythontips.com/en/latest/ternary_operators.html).
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#1](https://judge.softuni.bg/Contests/Practice/Index/1054#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1054#1](https://judge.softuni.org/Contests/Practice/Index/1054#1).
 
 
 ## Задача: завръщане в миналото
@@ -308,7 +308,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#2](https://judge.softuni.bg/Contests/Practice/Index/1054#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1054#2](https://judge.softuni.org/Contests/Practice/Index/1054#2).
 
 
 ## Задача: болница
@@ -400,7 +400,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#3](https://judge.softuni.bg/Contests/Practice/Index/1054#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1054#3](https://judge.softuni.org/Contests/Practice/Index/1054#3).
 
 
 ## Задача: деление без остатък
@@ -488,7 +488,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#4](https://judge.softuni.bg/Contests/Practice/Index/1054#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1054#4](https://judge.softuni.org/Contests/Practice/Index/1054#4).
 
 
 ## Задача: логистика
@@ -583,4 +583,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1054#5](https://judge.softuni.bg/Contests/Practice/Index/1054#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1054#5](https://judge.softuni.org/Contests/Practice/Index/1054#5).

@@ -54,7 +54,7 @@ if condition1:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#0](https://judge.softuni.bg/Contests/Practice/Index/1051#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#0](https://judge.softuni.org/Contests/Practice/Index/1051#0).
 
 
 ### Пример: квартално магазинче
@@ -85,7 +85,7 @@ if condition1:
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#1](https://judge.softuni.bg/Contests/Practice/Index/1051#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#1](https://judge.softuni.org/Contests/Practice/Index/1051#1).
 
 
 ## По-сложни проверки
@@ -144,7 +144,7 @@ result = a and b and c and d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#2](https://judge.softuni.bg/Contests/Practice/Index/1051#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#2](https://judge.softuni.org/Contests/Practice/Index/1051#2).
 
 
 ## Логическо "ИЛИ"
@@ -194,7 +194,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#3](https://judge.softuni.bg/Contests/Practice/Index/1051#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#3](https://judge.softuni.org/Contests/Practice/Index/1051#3).
 
 
 ## Логическо отрицание
@@ -225,7 +225,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#4](https://judge.softuni.bg/Contests/Practice/Index/1051#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#4](https://judge.softuni.org/Contests/Practice/Index/1051#4).
 
 
 ## Операторът скоби `()`
@@ -268,7 +268,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-След като допишете решението, може да го тествате тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#5](https://judge.softuni.bg/Contests/Practice/Index/1051#5).
+След като допишете решението, може да го тествате тук: [https://judge.softuni.org/Contests/Practice/Index/1051#5](https://judge.softuni.org/Contests/Practice/Index/1051#5).
 
 
 ### Пример: магазин за плодове
@@ -303,7 +303,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#6](https://judge.softuni.bg/Contests/Practice/Index/1051#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#6](https://judge.softuni.org/Contests/Practice/Index/1051#6).
 
 
 ### Пример: търговски комисионни
@@ -330,7 +330,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#7](https://judge.softuni.bg/Contests/Practice/Index/1051#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#7](https://judge.softuni.org/Contests/Practice/Index/1051#7).
 
 ### Пример: ден от седмицата
 
@@ -352,7 +352,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#8](https://judge.softuni.bg/Contests/Practice/Index/1051#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#8](https://judge.softuni.org/Contests/Practice/Index/1051#8).
 
 
 ### Пример: вид животно
@@ -377,7 +377,7 @@ result = a or b or c or d
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#9](https://judge.softuni.bg/Contests/Practice/Index/1051#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#9](https://judge.softuni.org/Contests/Practice/Index/1051#9).
 
 
 ## Какво научихме от тази глава?
@@ -431,7 +431,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#10](https://judge.softuni.bg/Contests/Practice/Index/1051#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#10](https://judge.softuni.org/Contests/Practice/Index/1051#10).
 
 
 ### Задача: волейбол
@@ -464,7 +464,7 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#11](https://judge.softuni.bg/Contests/Practice/Index/1051#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#11](https://judge.softuni.org/Contests/Practice/Index/1051#11).
 
 
 ### Задача: * точка във фигурата
@@ -515,4 +515,4 @@ if (x == left or x == right) and (y >= top or y <= bottom):
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1051#12](https://judge.softuni.bg/Contests/Practice/Index/1051#12).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1051#12](https://judge.softuni.org/Contests/Practice/Index/1051#12).

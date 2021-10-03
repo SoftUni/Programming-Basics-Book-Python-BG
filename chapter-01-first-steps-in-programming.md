@@ -43,7 +43,7 @@
 
 ![](/assets/chapter-1-images/PyCharm-IDE-in-action.png)
 
-Алтернативи на PyCharm за писане на Python са **Visual Studio Code** (https://code.visualstudio.com), **Atom** (https://atom.io), **Eclipse for Python** (http://www.eclipse.org) заедно с приставката **PyDev** (http://pydev.org) и други. В настоящата книга ще използваме средата за разработка PyCharm.
+Алтернативи на PyCharm за писане на Python са **Visual Studio Code** (https://code.visualstudio.com), **Atom** (https://atom.io), **Eclipse for Python** (https://www.eclipse.org) заедно с приставката **PyDev** (https://pydev.org) и други. В настоящата книга ще използваме средата за разработка PyCharm.
 
 Алтернатива на настолните среди за разработка (IDE) са **онлайн средите** за Python програмиране като [**Repl.it**](https://repl.it/languages/python3) и [**PythonAnywhere**](https://www.pythonanywhere.com). Те вършат отлична работа за тестване на кратки примери или когато нямаме възможност да инсталираме локално среда за разработка и Python интерпретатор или когато искаме лесно да споделим кода си с колеги. Ето пример как се изпълнява Python код в **Repl.it**:
 
@@ -266,9 +266,9 @@ Hello Python
 
 ### Тестване на програмата в Judge системата
 
-Тестването на задачите от тази книга е автоматизирано и се осъществява през Интернет, от сайта на **Judge системата**: [https://judge.softuni.bg](https://judge.softuni.bg). Оценяването на задачите се извършва на момента от системата. Всяка задача минава поредица от тестове, като всеки успешно преминат тест дава предвидените за него точки. Тестовете, които се подават на задачите, са скрити.
+Тестването на задачите от тази книга е автоматизирано и се осъществява през Интернет, от сайта на **Judge системата**: [https://judge.softuni.org](https://judge.softuni.org). Оценяването на задачите се извършва на момента от системата. Всяка задача минава поредица от тестове, като всеки успешно преминат тест дава предвидените за него точки. Тестовете, които се подават на задачите, са скрити.
 
-Горната програма може да тестваме тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#0](https://judge.softuni.bg/Contests/Practice/Index/1046#0). За целта поставяме целия сорс код на програмата в черното поле и избираме **Python code**, както е показано тук:
+Горната програма може да тестваме тук: [https://judge.softuni.org/Contests/Practice/Index/1046#0](https://judge.softuni.org/Contests/Practice/Index/1046#0). За целта поставяме целия сорс код на програмата в черното поле и избираме **Python code**, както е показано тук:
 
 ![](/assets/chapter-1-images/01.Hello-python-05.png)
 
@@ -344,7 +344,7 @@ print('Hello Python)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#1](https://judge.softuni.bg/Contests/Practice/Index/1046#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1046#1](https://judge.softuni.org/Contests/Practice/Index/1046#1).
 
 ![](/assets/chapter-1-images/02.Expression-03.png)
 
@@ -373,7 +373,7 @@ print('Hello Python)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#2](https://judge.softuni.bg/Contests/Practice/Index/1046#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1046#2](https://judge.softuni.org/Contests/Practice/Index/1046#2).
 
 Сега помислете дали може да напишем програмата по **по-умен начин**, така че да не повтаряме 20 пъти една и съща команда. Потърсете в Интернет информация за "**[for loop Python](https://www.google.bg/search?q=for+loop+python)**".
 
@@ -407,7 +407,7 @@ print('**')
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#3](https://judge.softuni.bg/Contests/Practice/Index/1046#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1046#3](https://judge.softuni.org/Contests/Practice/Index/1046#3).
 
 Опитайте да **подобрите решението**, така че да няма много повтарящи се команди. Може ли това да стане с **`for`** цикъл? Успяхте ли да намерите умно решение (например с цикъл) на предната задача? При тази задача може да се ползва нещо подобно, но малко по-сложно (два цикъла един в друг). Ако не успеете, няма проблем, ще учим цикли след няколко глави и ще си спомните за тази задача тогава.
 
@@ -443,7 +443,7 @@ print('**')
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#4](https://judge.softuni.bg/Contests/Practice/Index/1046#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1046#4](https://judge.softuni.org/Contests/Practice/Index/1046#4).
 
 ### \* Задача: квадрат от звездички
 
@@ -467,7 +467,7 @@ print('**')
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1046#5](https://judge.softuni.bg/Contests/Practice/Index/1046#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1046#5](https://judge.softuni.org/Contests/Practice/Index/1046#5).
 
 
 ## Конзолни, графични и уеб приложения
@@ -559,7 +559,7 @@ print('**')
 
 Сега ще напишем нещо още по-сложно, но и по-интересно: уеб приложение, което **изчислява сумата на две числа**. При **въвеждане на две числа** в първите две текстови полета и натискане на бутона [**Calculate**] се **изчислява тяхната сума** и резултата се показва в третото текстово поле.
 
-Обърнете внимание, че ще създадем **уеб-базирано приложение**. Това е приложение, което е достъпно през уеб браузър, точно както любимата ви уеб поща или новинарски сайт. Уеб приложението ще има сървърна част (back-end), която е написана на езика Python с технологията **Flask** (http://flask.pocoo.org) и клиентска част (front-end), която е написана на езика **HTML** (това е език за визуализация на информация в уеб браузър).  Уеб приложението се очаква да изглежда приблизително по следния начин:
+Обърнете внимание, че ще създадем **уеб-базирано приложение**. Това е приложение, което е достъпно през уеб браузър, точно както любимата ви уеб поща или новинарски сайт. Уеб приложението ще има сървърна част (back-end), която е написана на езика Python с технологията **Flask** (https://flask.palletsprojects.com) и клиентска част (front-end), която е написана на езика **HTML** (това е език за визуализация на информация в уеб браузър).  Уеб приложението се очаква да изглежда приблизително по следния начин:
 
 ![](/assets/chapter-1-images/08.Numbers-sum-web-01.png)
 

@@ -158,7 +158,7 @@ str = firstName + " " + lastName + " is " + age + " years old";
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1048#0](https://judge.softuni.bg/Contests/Practice/Index/1048#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1048#0](https://judge.softuni.org/Contests/Practice/Index/1048#0).
 
 
 ## Задача: зеленчукова борса
@@ -232,7 +232,7 @@ str = firstName + " " + lastName + " is " + age + " years old";
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1048#1](https://judge.softuni.bg/Contests/Practice/Index/1048#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1048#1](https://judge.softuni.org/Contests/Practice/Index/1048#1).
 
 
 ## Задача: ремонт на плочки
@@ -323,7 +323,7 @@ str = firstName + " " + lastName + " is " + age + " years old";
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1048#2](https://judge.softuni.bg/Contests/Practice/Index/1048#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1048#2](https://judge.softuni.org/Contests/Practice/Index/1048#2).
 
 
 ## Задача: парички
@@ -412,7 +412,7 @@ str = firstName + " " + lastName + " is " + age + " years old";
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1048#3](https://judge.softuni.bg/Contests/Practice/Index/1048#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1048#3](https://judge.softuni.org/Contests/Practice/Index/1048#3).
 
 
 ## Задача: дневна печалба
@@ -482,4 +482,4 @@ str = firstName + " " + lastName + " is " + age + " years old";
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1048#4](https://judge.softuni.bg/Contests/Practice/Index/1048#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1048#4](https://judge.softuni.org/Contests/Practice/Index/1048#4).

@@ -146,7 +146,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/1052#0](https://judge.softuni.bg/Contests/Practice/Index/1052#0).
+Тествайте решението си тук:  [https://judge.softuni.org/Contests/Practice/Index/1052#0](https://judge.softuni.org/Contests/Practice/Index/1052#0).
 
 
 ## Задача: пътешествие
@@ -243,7 +243,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1052#1](https://judge.softuni.bg/Contests/Practice/Index/1052#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1052#1](https://judge.softuni.org/Contests/Practice/Index/1052#1).
 
 
 ## Задача: операции между числа
@@ -334,7 +334,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1052#2](https://judge.softuni.bg/Contests/Practice/Index/1052#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1052#2](https://judge.softuni.org/Contests/Practice/Index/1052#2).
 
 
 ## Задача: билети за мач
@@ -419,7 +419,7 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1052#3](https://judge.softuni.bg/Contests/Practice/Index/1052#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1052#3](https://judge.softuni.org/Contests/Practice/Index/1052#3).
 
 
 ## Задача: хотелска стая
@@ -509,4 +509,4 @@ else:
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1052#4](https://judge.softuni.bg/Contests/Practice/Index/1052#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1052#4](https://judge.softuni.org/Contests/Practice/Index/1052#4).

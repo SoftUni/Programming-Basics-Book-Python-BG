@@ -91,7 +91,7 @@ print_me = ('abc' * 2)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1056#0](https://judge.softuni.bg/Contests/Practice/Index/1056#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1056#0](https://judge.softuni.org/Contests/Practice/Index/1056#0).
 
 
 ## Задача: пеперуда
@@ -142,7 +142,7 @@ print_me = ('abc' * 2)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1056#1](https://judge.softuni.bg/Contests/Practice/Index/1056#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1056#1](https://judge.softuni.org/Contests/Practice/Index/1056#1).
 
 
 ## Задача: знак "Стоп"
@@ -199,7 +199,7 @@ print_me = ('abc' * 2)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1056#2](https://judge.softuni.bg/Contests/Practice/Index/1056#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1056#2](https://judge.softuni.org/Contests/Practice/Index/1056#2).
 
 
 ## Задача: стрелка
@@ -262,7 +262,7 @@ print_me = ('abc' * 2)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1056#3](https://judge.softuni.bg/Contests/Practice/Index/1056#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1056#3](https://judge.softuni.org/Contests/Practice/Index/1056#3).
 
 
 ## Задача: брадва
@@ -315,4 +315,4 @@ print_me = ('abc' * 2)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/1056#4](https://judge.softuni.bg/Contests/Practice/Index/1056#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/1056#4](https://judge.softuni.org/Contests/Practice/Index/1056#4).
