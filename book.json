@@ -1,12 +1,12 @@
 {
-	"title": 
-		"Основи на програмирането с Python",
-	"description": 
-		"Безплатна книга \"Основи на програмирането с Python\" за напълно начинаещи. Обхваща езика Python, Python интерпретатор, среда за разработка PyCharm, променливи, данни, пресмятания, проверки, условни конструкции, конструкции за цикли, вложени цикли, функции и много практически задачи.",
-	"isbn": 
-		"978-619-00-0806-4",
-	"language":
-		"bg",
+    "title": 
+        "Основи на програмирането с Python",
+    "description": 
+        "Безплатна книга \"Основи на програмирането с Python\" за напълно начинаещи. Обхваща езика Python, Python интерпретатор, среда за разработка PyCharm, променливи, данни, пресмятания, проверки, условни конструкции, конструкции за цикли, вложени цикли, функции и много практически задачи.",
+    "isbn": 
+        "978-619-00-0806-4",
+    "language":
+        "bg",
     "plugins": [
         "ga",
         "meta",
@@ -14,18 +14,11 @@
         "expandable-chapters-small",
         "katex",
         "scripts",
-		"page-toc-button"
+        "page-toc-button"
     ],
     "pluginsConfig": {
         "ga": {
             "token": "UA-11309924-24"
-        },
-        "meta": {
-            "name": "google-site-verification",
-            "content": "AWhQilrxdrfKBZwgDA4W3HgenyIiC8kw9ImVuYNSTAg"
-        },
-        "sitemap": {
-            "hostname": "https://python-book.softuni.bg/"
         },
         "scripts": {
             "files": [
