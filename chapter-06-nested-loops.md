@@ -447,7 +447,7 @@ for row in range(5):
 
 ![](assets/chapter-6-1-images/11.Ratings-05.png)
 
-Сега добавяме **структурата** на проекта (файловете със заданието за този проект могат да бъдат свалени от [тук](https://github.com/SoftUni/Programming-Basics-Book-Python-BG/tree/chapter-06-nested-loops/assets/chapter-6-1-assets)). Копираме ги от Windows Explorer и ги поставяме в папката на проекта **Ratings** с Copy/Paste:
+Сега добавяме **структурата** на проекта (файловете със заданието за този проект могат да бъдат свалени от [тук](https://github.com/SoftUni/Programming-Basics-Book-Python-BG/tree/master/assets/chapter-6-1-assets)). Копираме ги от Windows Explorer и ги поставяме в папката на проекта **Ratings** с Copy/Paste:
 
 ![](assets/chapter-6-1-images/11.Ratings-06.png)
 
