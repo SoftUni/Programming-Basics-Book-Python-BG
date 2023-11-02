@@ -281,7 +281,7 @@ print(0 / 0)    # Резултат: ZeroDivisionError: division by zero
 print(2.5 / 0)  # Резултат: ZeroDivisionError: float division by zero
 ```
 
-### Степенуване на числа: оператор **`**`**
+### Степенуване на числа: оператор **
 
 За **повдигане на степен** в Python използваме оператора `**`:
 ```python
