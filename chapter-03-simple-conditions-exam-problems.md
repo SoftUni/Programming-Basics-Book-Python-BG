@@ -319,7 +319,7 @@ else:
 
 |Вход|Изход|Вход|Изход|
 |----|-----|----|-----|
-|90<br>7<br>3<br>|Yes!99 hours left.|99<br>3<br>1|Not enough time!72 hours needed.|
+|90<br>7<br>3<br>|Yes!2 hours left.|99<br>3<br>1|Not enough time!72 hours needed.|
 
 ### Насоки и подсказки
 
